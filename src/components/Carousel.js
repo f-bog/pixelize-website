@@ -15,6 +15,7 @@ const Container = styled.div`
     font-weight: 700;
   }
   p {
+    margin: 15px auto;
     max-width: 80%;
   }
   h2 {

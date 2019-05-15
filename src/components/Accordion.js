@@ -74,6 +74,7 @@ p {
     opacity: 0.6;
   }
   h3 {
+    font-size: 20px;
     margin: 5px;
     text-align: center;
   }
