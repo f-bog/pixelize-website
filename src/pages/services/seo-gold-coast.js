@@ -4,7 +4,7 @@ import TextContainer from "../../components/Containers/TextContainer"
 import SeoIllustration from "../../components/GatsbyImages/SeoIllustration"
 
 import { Link } from "gatsby"
-import Layout from "../../components/Layout"
+import Layout from "../../components/layout"
 
 const SeoPage = () => (
   <Layout>

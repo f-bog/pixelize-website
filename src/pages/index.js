@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Herosvg from "../components/Herosvg"
 import WordChanger from "../components/WordChanger"

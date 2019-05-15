@@ -3,7 +3,7 @@ import SEO from "../../components/seo"
 import TextContainer from "../../components/Containers/TextContainer"
 import DesignIllustration from "../../components/GatsbyImages/DesignIllustration"
 import WebsiteDinoPoodle from "../../components/GatsbyImages/WebsiteDinoPoodle"
-import Layout from "../../components/Layout"
+import Layout from "../../components/layout"
 
 const DesignPage = () => (
   <Layout>

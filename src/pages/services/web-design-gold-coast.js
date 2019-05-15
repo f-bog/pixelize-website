@@ -3,7 +3,7 @@ import SEO from "../../components/seo"
 import TextContainer from "../../components/Containers/TextContainer"
 import DevelopmentIllustration from "../../components/GatsbyImages/DevelopmentIllustration"
 
-import Layout from "../../components/Layout"
+import Layout from "../../components/layout"
 
 const WebPage = () => (
   <Layout>
