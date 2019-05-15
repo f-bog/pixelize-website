@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg8331" viewBox="0 0 298.29614 44.695663">
+  <defs id="defs8325">
+    <linearGradient id="linearGradient9385">
+      <stop id="stop9381" offset="0" stop-color="#ff0080"/>
+      <stop id="stop9383" offset="1" stop-color="#9f80ff"/>
+    </linearGradient>
+    <linearGradient id="linearGradient7421">
+      <stop id="stop7417" offset="0" stop-color="#00ffd6"/>
+      <stop id="stop7419" offset="1" stop-color="#1ed4ff"/>
+    </linearGradient>
+    <linearGradient id="linearGradient7393">
+      <stop id="stop7389" offset="0" stop-color="#00ffd6"/>
+      <stop id="stop7391" offset="1" stop-color="#f4ff80"/>
+    </linearGradient>
+    <linearGradient id="linearGradient1275">
+      <stop id="stop1271" offset="0" stop-color="#00abff"/>
+      <stop id="stop1273" offset="1" stop-color="#fb00ff"/>
+    </linearGradient>
+    <linearGradient id="linearGradient1221">
+      <stop id="stop1217" offset="0" stop-color="#ff0080"/>
+      <stop id="stop1219" offset="1" stop-color="#ffb380"/>
+    </linearGradient>
+    <linearGradient id="linearGradient1223" x1="11.707589" x2="237.55688" y1="394.3736" y2="453.42273" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1221"/>
+    <linearGradient id="linearGradient1269" x1="2.058198" x2="30.876593" y1="117.38485" y2="121.54259" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1275"/>
+    <linearGradient id="linearGradient7387" x1="160.53964" x2="166.05101" y1="5.2548008" y2="5.2548008" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient7393"/>
+    <linearGradient id="linearGradient7415" x1="162.5509" x2="166.05101" y1="4.1990514" y2="5.2548008" gradientTransform="translate(-17.031323 12.717988)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient7421"/>
+    <linearGradient id="linearGradient9781" x1="361.17578" x2="409.19492" y1="844.92383" y2="846.22943" gradientTransform="matrix(.26458 0 0 .26458 56.35625 -23.283333)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient9385"/>
+    <linearGradient id="linearGradient1807" x1="340.14453" x2="393.05634" y1="1036.9434" y2="1037.406" gradientTransform="rotate(15 502.15547 1190.4541)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1221"/>
+  </defs>
+  <g id="layer1" transform="translate(-3062.3626 -1737.151)">
+    <g id="layer1-9" transform="translate(3096.6059 1594.7905)">
+      <g id="g1476" transform="translate(29.145883 -439.86234)">
+        <text id="text1405" x="16.438019" y="626.31451" fill="#fff" stroke-width="3.3127389" font-family="Raleway" font-size="60.39954758" font-weight="700" letter-spacing="0" style="line-height:1.25;-inkscape-font-specification:'Raleway, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" word-spacing="0">
+          <tspan id="tspan1403" x="16.438019" y="626.31451" style="-inkscape-font-specification:'Raleway, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start">Pixelize</tspan>
+        </text>
+        <g id="g1425" fill-rule="evenodd" transform="matrix(0 1.5951 -1.5951 0 112.84004 -390.54837)">
+          <rect id="rect1407" width="3.5291009" height="9.7097092" x="622.5321" y="86.686081" fill="#0f0" stroke-width=".1365878" ry="0"/>
+          <rect id="rect1409" width="3.5291009" height="3.5291009" x="629.3269" y="106.23177" fill="#ff8900" stroke-width=".08234569" ry="0"/>
+          <rect id="rect1411" width="3.5291009" height="15.151869" x="629.3269" y="74.939621" fill="#00b3ff" stroke-width=".1706247" ry="0"/>
+          <rect id="rect1413" width="3.5291009" height="3.5291009" x="629.3269" y="94.374222" fill="#f07" stroke-width=".08234569" ry="0"/>
+          <rect id="rect1415" width="3.5291009" height="3.5291009" x="614.86932" y="90.005753" fill="#0ff" stroke-width=".08234569" ry="0"/>
+          <rect id="rect1417" width="3.5291009" height="3.5291009" x="622.5321" y="100.40483" fill="#ff0" stroke-width=".08234569" ry="0"/>
+          <rect id="rect1419" width="3.5291009" height="15.923175" x="622.09808" y="63.773392" fill="#9400ff" stroke-width=".17491361" ry="0"/>
+          <rect id="rect1421" width="3.5291009" height="15.232743" x="614.86932" y="71.403793" fill="#ff0" stroke-width=".17107944" ry="0"/>
+          <rect id="rect1423" width="3.5291009" height="10.143684" x="614.86932" y="100.33842" fill="#f07" stroke-width=".13960683" ry="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

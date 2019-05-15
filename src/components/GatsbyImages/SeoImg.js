@@ -11,22 +11,27 @@ import Img from "gatsby-image"
  * For more information, see the docs:
  * - `gatsby-image`: https://gatsby.app/gatsby-image
  * - `StaticQuery`: https://gatsby.app/staticquery
- */
-
-const Image = () => (
+ */ const SeoImg = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
+        placeholderImage: file(relativePath: { eq: "seopng.png" }) {
           childImageSharp {
-            fluid(maxWidth: 300) {
-              ...GatsbyImageSharpFluid
+            fixed(height: 120, quality: 50) {
+              ...GatsbyImageSharpFixed_tracedSVG
             }
           }
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => (
+      <Img
+        style={{ display: "block" }}
+        fixed={data.placeholderImage.childImageSharp.fixed}
+        alt="Pixelize seo illustration"
+      />
+    )}
   />
 )
-export default Image
+
+export default SeoImg
