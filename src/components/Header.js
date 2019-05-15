@@ -32,7 +32,7 @@ const MainHeader = styled.header`
     display: none;
   }
   @media only screen and (min-width: 797px) {
-    max-width: 1060px;
+    ${"" /* max-width: 1060px; */}
     .desknav {
       display: block;
     }
