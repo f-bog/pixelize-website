@@ -17,7 +17,7 @@ import Img from "gatsby-image"
       query {
         placeholderImage: file(relativePath: { eq: "website-dinosaur.png" }) {
           childImageSharp {
-            fixed(width: 300, quality: 100) {
+            fixed(width: 220, quality: 100) {
               ...GatsbyImageSharpFixed_tracedSVG
             }
           }
@@ -28,6 +28,7 @@ import Img from "gatsby-image"
       <Img
         className="websitepoodle"
         fixed={data.placeholderImage.childImageSharp.fixed}
+        style={{ display: "block" }}
         alt="Illustration of pink poodle riding a dinosaur"
       />
     )}

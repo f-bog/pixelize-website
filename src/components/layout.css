@@ -45,14 +45,13 @@ h2 {
 }
 
 .websitepoodle {
-  max-width: 200px;
-
+  display: block;
+  margin: 0 auto;
   float: none;
 }
 
 @media only screen and (min-width: 768px) {
   .websitepoodle {
-    max-width: 300px;
     float: right;
   }
 }
