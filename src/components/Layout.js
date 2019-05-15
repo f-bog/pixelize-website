@@ -6,17 +6,19 @@ import Footer from "./Footer"
 import Header from "./Header"
 import "./layout.css"
 
+const SITE_TITLE_QUERY = graphql`
+  query aNewSiteTitleQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
+
 const Layout = ({ children }) => (
   <StaticQuery
-    query={graphql`
-      query TitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
+    query={SITE_TITLE_QUERY}
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
