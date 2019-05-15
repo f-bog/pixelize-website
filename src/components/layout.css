@@ -43,3 +43,16 @@ h2 {
   margin: 0 auto;
   max-width: 1060px;
 }
+
+.websitepoodle {
+  max-width: 200px;
+
+  float: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .websitepoodle {
+    max-width: 300px;
+    float: right;
+  }
+}

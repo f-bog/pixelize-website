@@ -26,7 +26,7 @@ import Img from "gatsby-image"
     `}
     render={data => (
       <Img
-        style={{ float: "right" }}
+        className="websitepoodle"
         fixed={data.placeholderImage.childImageSharp.fixed}
         alt="Illustration of pink poodle riding a dinosaur"
       />

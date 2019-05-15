@@ -14,6 +14,9 @@ const Container = styled.div`
     color: black;
     font-weight: 700;
   }
+  p {
+    max-width: 80%;
+  }
   h2 {
     text-align: center;
   }
