@@ -8,7 +8,7 @@ import TextContainer from "../components/Containers/TextContainer"
 import Image from "../components/GatsbyImages/designimg"
 import DevImg from "../components/GatsbyImages/DevImg"
 import SeoImg from "../components/GatsbyImages/SeoImg"
-import ServicesIllustration from "../components/GatsbyImages/servicesillustration"
+import ServicesIllustration from "../components/GatsbyImages/ServicesIllustration"
 import Accordion from "../components/Accordion"
 
 const ServicePage = () => (
