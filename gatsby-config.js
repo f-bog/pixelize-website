@@ -6,13 +6,6 @@ module.exports = {
   },
 
   plugins: [
-    {
-      resolve: `gatsby-plugin-netlify-cms-paths`,
-      options: {
-        // Path to your Netlify CMS config file
-        cmsConfig: `/static/admin/config.yml`,
-      },
-    },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -42,6 +35,13 @@ module.exports = {
       options: {
         path: `${__dirname}/static/img`,
         name: "postimg",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-netlify-cms-paths`,
+      options: {
+        // Path to your Netlify CMS config file
+        cmsConfig: `/static/admin/config.yml`,
       },
     },
     `gatsby-transformer-sharp`,
