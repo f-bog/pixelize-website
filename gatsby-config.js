@@ -6,6 +6,14 @@ module.exports = {
   },
 
   plugins: [
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://blissful-mayer-9c22ec.netlify.com/",
+        sitemap: "https://blissful-mayer-9c22ec.netlify.com/sitemap.xml",
+        policy: [{ userAgent: "*", disallow: "/" }],
+      },
+    },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
