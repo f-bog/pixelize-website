@@ -3,7 +3,7 @@ backend:
   repo: frederickswebdesigns/website-build-test
 
 media_folder: static/img
-public_folder: images
+public_folder: img
 
 collections:
   - name: "post"
