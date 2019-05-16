@@ -12,7 +12,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { name: path, label: Path }
+      - { name: slug, label: Slug }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: thumbnail, label: Thumbnail, widget: image }
