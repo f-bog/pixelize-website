@@ -8,11 +8,11 @@ import Layout from "../../components/layout"
 
 const SeoPage = () => (
   <Layout>
-    <SEO title="SEO & Content Management" />
+    <SEO title="Content Management & SEO Gold Coast" />
 
     <TextContainer>
       <SeoIllustration />
-      <h1>SEO & Content Writing</h1>
+      <h1>Content Writing & SEO</h1>
       <p>
         We think of these topics like the two sides of a coin; the SEO side is
         for bots and algorithms from Google, while the Content Creation side is

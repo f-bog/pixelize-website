@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const BlogPage = () => (
   <Layout>
-    <SEO title="Blog" />
+    <SEO title="Web Design & Marketing Blog" />
     <h1>Our Blog</h1>
     <p>Welcome to Our Blog</p>
     <Archive />

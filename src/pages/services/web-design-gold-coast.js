@@ -7,14 +7,14 @@ import Layout from "../../components/layout"
 
 const WebPage = () => (
   <Layout>
-    <SEO title="Web Design & Development" />
+    <SEO title="Web Design & Development Gold Coast" />
 
     <TextContainer>
       <DevelopmentIllustration />
-      <h1>Gold Coast Web Design</h1>
+      <h1>Gold Coast Web Design & Development</h1>
       <p>
-        With the human condition of ever shorting intention spans, we understand
-        the importance of captivating your audience within a couple
+        With the human condition of ever shortening intention spans, we
+        understand the importance of captivating your audience within a couple
         milliseconds.
       </p>
       <p>
@@ -25,7 +25,7 @@ const WebPage = () => (
         stunning visual experience.{" "}
       </p>
 
-      <h2>Your local Web Designers</h2>
+      <h2>Your Local Web Designers</h2>
 
       <p>
         How we navigate the internet has changed. Thanks to the technological
@@ -49,12 +49,17 @@ const WebPage = () => (
         stay longer and keep coming back for more!
       </p>
 
-      <p>
-        <strong>
-          Fun fact: Did you know that the colour blue makes your website visitor
-          feel a sense of trustworthiness? Who knew blue on your website could
-          add green to your wallet.
-        </strong>
+      <p
+        style={{
+          background: "#00b3ff",
+          color: "black",
+          borderRadius: "10px",
+          padding: "10px",
+        }}
+      >
+        <strong>Fun fact:</strong> Did you know that the colour blue makes your
+        website visitor feel a sense of reliability & trustworthiness? Who knew
+        blue on your website could add green to your wallet.
       </p>
     </TextContainer>
   </Layout>
