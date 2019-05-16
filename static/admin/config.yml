@@ -11,7 +11,7 @@ collections:
     label: "Posts"
     folder: "src/posts"
     create: true
-    slug: { { slug } }
+    slug: "{{slug}}"
     fields:
       - { label: "Post Name", name: "title", widget: "string" }
       - { label: "Bio", name: "bio", widget: "markdown" }
