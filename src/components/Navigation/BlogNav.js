@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
-
+import Img from "gatsby-image"
 const NavigationContainer = styled.div`
   box-shadow: 3px 4px 34px -16px rgba(0, 0, 0, 0.75);
   margin-top: 105px;
@@ -91,6 +91,13 @@ const BLOGNAV_QUERY = graphql`
       edges {
         node {
           frontmatter {
+            thumbnail {
+              childImageSharp {
+                fluid(maxHeight: 500, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             title
             slug
             date(formatString: "MMMM DD, YYYY")
@@ -111,6 +118,11 @@ const BlogNav = () => (
           allMarkdownRemark.edges.map(edge => (
             <li>
               <Link to={`/posts${edge.node.frontmatter.slug}`}>
+                <Img
+                  style={{ width: "150px" }}
+                  fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid}
+                />
+
                 {edge.node.frontmatter.title}
               </Link>
               <span>{edge.node.frontmatter.date}</span>
