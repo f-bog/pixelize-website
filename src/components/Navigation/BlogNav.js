@@ -116,7 +116,7 @@ const BlogNav = () => (
         query={BLOGNAV_QUERY}
         render={({ allMarkdownRemark }) =>
           allMarkdownRemark.edges.map(edge => (
-            <li>
+            <li key={edge.node.frontmatter.slug}>
               <Link to={`/posts${edge.node.frontmatter.slug}`}>
                 <Img
                   style={{ width: "150px" }}
