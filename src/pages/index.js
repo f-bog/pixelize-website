@@ -8,7 +8,7 @@ import WordChanger from "../components/WordChanger"
 import GreyContainer from "../components/Containers/GreyContainer"
 import WhiteContainer from "../components/Containers/WhiteContainer"
 
-import Carousel from "../components/Carousel"
+// import Carousel from "../components/Carousel"
 
 import Image from "../components/GatsbyImages/designimg"
 import DevImg from "../components/GatsbyImages/DevImg"
@@ -223,7 +223,7 @@ class IndexPage extends Component {
             </Link>
           </ServiceCard>
         </WhiteContainer>
-        <Carousel heading="Some of our Work!" />
+        {/* <Carousel heading="Some of our Work!" /> */}
       </Layout>
     )
   }
