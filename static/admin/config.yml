@@ -2,8 +2,8 @@ backend:
   name: github
   repo: frederickswebdesigns/website-build-test
 
-media_folder: src/images
-public_folder: src/images
+media_folder: "../images"
+public_folder: "../images"
 
 collections:
   - name: "post"
