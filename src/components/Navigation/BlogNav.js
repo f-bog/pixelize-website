@@ -122,7 +122,8 @@ const BlogNav = () => (
                   style={{ width: "150px" }}
                   fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid}
                 />
-
+              </Link>
+              <Link to={`/posts${edge.node.frontmatter.slug}`}>
                 {edge.node.frontmatter.title}
               </Link>
               <span>{edge.node.frontmatter.date}</span>
