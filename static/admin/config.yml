@@ -2,7 +2,7 @@ backend:
   name: github
   repo: frederickswebdesigns/website-build-test
 
-media_folder: static/img
+media_folder: src/images
 public_folder: img
 
 collections:
@@ -15,5 +15,5 @@ collections:
       - { name: slug, label: Slug }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
-      - { name: thumbnail, label: Thumbnail, widget: image }
+      - { name: thumbnail, label: Image }
       - { name: body, label: Body, widget: markdown }
