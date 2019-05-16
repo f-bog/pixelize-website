@@ -6,7 +6,11 @@
 
 // You can delete this file if you're not using it
 const path = require("path")
+const { fmImagesToRelative } = require("gatsby-remark-relative-images")
 
+exports.onCreateNode = ({ node }) => {
+  fmImagesToRelative(node)
+}
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return new Promise((resolve, reject) => {
