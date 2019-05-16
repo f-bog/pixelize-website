@@ -1,0 +1,17 @@
+backend:
+  name: github
+  branch: master
+  repo: frederickswebdesigns/website-build-test
+
+media_folder: static/img
+public_folder: img
+
+collections:
+  - name: "post"
+    label: "Posts"
+    folder: "src/posts"
+    create: true
+    slug: { { slug } }
+    fields:
+      - { label: "Post Name", name: "title", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "markdown" }
