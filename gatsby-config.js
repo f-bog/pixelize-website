@@ -30,13 +30,7 @@ module.exports = {
         name: "portfolioitem",
       },
     },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/static/img`,
-        name: "postimg",
-      },
-    },
+
     {
       resolve: `gatsby-plugin-netlify-cms-paths`,
       options: {
