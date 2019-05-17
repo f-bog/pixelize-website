@@ -17,6 +17,9 @@ const PostCard = styled.div`
     margin-bottom: 20px;
     text-decoration: none;
   }
+  p {
+    word-wrap: break-word;
+  }
   border-radius: 10px;
   span {
     font-weight: 900;
