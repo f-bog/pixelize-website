@@ -3,8 +3,6 @@ import { Link, StaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import Img from "gatsby-image"
 
-const PostContainer = styled.div``
-
 const PostCard = styled.div`
   display: block;
   width: 80%;
@@ -62,26 +60,21 @@ const Archive = ({ children }) => (
     render={({ allMarkdownRemark }) => (
       <>
         <h2 style={{ textAlign: "Center" }}>Posts</h2>
-        <PostContainer>
-          {allMarkdownRemark.edges.map(edge => (
-            <PostCard key={edge.node.frontmatter.slug}>
-              <Link
-                className="title"
-                to={`/posts${edge.node.frontmatter.slug}`}
-              >
-                <h3>{edge.node.frontmatter.title} &rarr;</h3>
-              </Link>
-              <Link to={`/posts${edge.node.frontmatter.slug}`}>
-                <Img
-                  fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid}
-                />
-              </Link>
+        {allMarkdownRemark.edges.map(edge => (
+          <PostCard key={edge.node.frontmatter.slug}>
+            <Link className="title" to={`/posts${edge.node.frontmatter.slug}`}>
+              <h3>{edge.node.frontmatter.title} &rarr;</h3>
+            </Link>
+            <Link to={`/posts${edge.node.frontmatter.slug}`}>
+              <Img
+                fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid}
+              />
+            </Link>
 
-              <span>{edge.node.frontmatter.date}</span>
-              <p>{edge.node.excerpt}</p>
-            </PostCard>
-          ))}
-        </PostContainer>
+            <span>{edge.node.frontmatter.date}</span>
+            <p>{edge.node.excerpt}</p>
+          </PostCard>
+        ))}
       </>
     )}
   />
