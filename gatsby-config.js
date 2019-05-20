@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Pixelize`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Creative Web Design Gold Coast professionals, specialising in building lightning fast websites with a strong focus on SEO. Provide us with your vision and we will pixelize it into digital life.`,
+    author: `@Pixelize`,
   },
 
   plugins: [

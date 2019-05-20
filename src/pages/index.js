@@ -74,7 +74,7 @@ const ServiceCard = styled.div`
   margin: 20px auto;
   color: black;
   padding: 10px;
-  height: 400px;
+
   width: 250px;
   text-align: center;
   a {

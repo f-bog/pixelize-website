@@ -22,7 +22,7 @@ const WebPage = () => (
         their knowledge of beautiful user-friendly designs, technical abilities
         along with a splash of creative juice to hand-craft you a website that
         will captivate your audience through blazing fast load times and a
-        stunning visual experience.{" "}
+        stunning visual experience.
       </p>
 
       <h2>Your Local Web Designers</h2>
@@ -31,22 +31,21 @@ const WebPage = () => (
         How we navigate the internet has changed. Thanks to the technological
         revolution, we get to have incredible little supercomputers (aka
         smartphones) in our pockets, purses and yes, even in our fanny packs,
-        but this means the web design game has changed as well.{" "}
+        but this means the web design game has changed as well.
       </p>
 
       <p>
         With more and more people searching for services and products on their
-        phones and tablets, the importance of having not only a beautiful design
-        but also a responsive web design has become a “must have”.{" "}
+        phones and tablets, the importance of having a beautiful responsive web
+        design has become a “must have”.
       </p>
 
       <p>
-        From colour palettes to page layouts, our Gold Coast web designers work
-        with you to convey and create a web design that captures you and your
-        brand. From layouts and fonts that are pleasing to the eye to responsive
-        web designs, we create your user an experience that seamlessly guides
-        them through a smooth and enjoyable journey that will make them want to
-        stay longer and keep coming back for more!
+        From colour palettes and page layouts that are pleasing to the eye to
+        responsive web designs, our Gold Coast web designers create your visitor
+        an experience that seamlessly guides them through a smooth and enjoyable
+        journey that will make them want to stay longer and keep coming back for
+        more!
       </p>
 
       <p
@@ -58,8 +57,7 @@ const WebPage = () => (
         }}
       >
         <strong>Fun fact:</strong> Did you know that the colour blue makes your
-        website visitor feel a sense of reliability & trustworthiness? Who knew
-        blue on your website could add green to your wallet.
+        website visitor feel a sense of reliability & trustworthiness?
       </p>
     </TextContainer>
   </Layout>
