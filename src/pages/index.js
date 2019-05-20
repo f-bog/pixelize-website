@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
+import WhyPixelize from "../components/GatsbyImages/WhyPixelize"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -223,7 +224,30 @@ class IndexPage extends Component {
             </Link>
           </ServiceCard>
         </WhiteContainer>
-        {/* <Carousel heading="Some of our Work!" /> */}
+        <WhiteContainer heading="Why should you use Pixelize?">
+          <WhyPixelize />
+
+          <p
+            style={{
+              maxWidth: "500px",
+              textAlign: "left",
+              margin: "0 auto",
+              background: "rgb(148, 0, 255)",
+              color: "white",
+              padding: "25px",
+              borderRadius: "10px",
+            }}
+          >
+            Lorem ipsum dolor amet fixie you probably haven't heard of them
+            taxidermy master cleanse leggings stumptown. Microdosing pabst
+            artisan cold-pressed, mustache authentic occupy twee lo-fi squid
+            iPhone adaptogen. Single-origin coffee XOXO iPhone squid flannel tbh
+            cliche intelligentsia put a bird on it brunch stumptown
+            vexillologist kombucha irony. Before they sold out beard VHS la
+            croix pickled deep v vice tousled sriracha poutine swag hammock
+            bushwick shaman.{" "}
+          </p>
+        </WhiteContainer>
       </Layout>
     )
   }
