@@ -99,7 +99,7 @@ const QuotePage = () => (
         kickstarter hashtag sustainable sriracha.
       </p>
       <FormContainer
-        method="post"
+        method="POST"
         name="contact"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
