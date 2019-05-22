@@ -145,8 +145,8 @@ class IndexPage extends Component {
         <GreyContainer>
           <h2>Where Code Becomes Art</h2>
           <p>
-            Starting out in my parents two car garage, sitting on plastic lawn
-            chairs and eating mangos… <strong>Pixelize</strong> was born!
+            Starting out in my two car garage, sitting on plastic lawn chairs
+            and eating mangos… <strong>Pixelize</strong> was born!
           </p>{" "}
           <p>
             Comprised of local <strong>Gold Coast</strong> professional web
