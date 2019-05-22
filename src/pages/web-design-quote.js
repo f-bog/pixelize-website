@@ -198,7 +198,9 @@ const QuotePage = () => (
           Logo Design
         </label>
 
-        <button className="readmore">Send</button>
+        <button type="submit" className="readmore">
+          Send
+        </button>
       </FormContainer>
     </TextContainer>
   </Layout>
