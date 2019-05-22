@@ -125,17 +125,15 @@ const NavigationLinks = () => (
         </ul>
       </li>
       <li>
-        <Link to="/">Portfolio</Link>
+        <Link to="/portfolio">Portfolio</Link>
       </li>
       <li>
-        <Link to="/">About</Link>
+        <Link to="/about">About</Link>
       </li>
       <li>
         <Link to="/blog/">Blog</Link>
       </li>
-      <li>
-        <Link to="/">Contact</Link>
-      </li>
+
       <li>
         <Link to="/web-design-quote">Get a Quote</Link>
       </li>

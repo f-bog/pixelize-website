@@ -4,6 +4,7 @@ import Layout from "./layout"
 import BlogNav from "../components/Navigation/BlogNav"
 import Img from "gatsby-image"
 import TextContainer from "../components/Containers/TextContainer"
+import NavigationWidget from "./Navigation/NavigationWidget"
 export default class postLayout extends Component {
   render() {
     const { markdownRemark } = this.props.data
@@ -20,6 +21,7 @@ export default class postLayout extends Component {
             }}
           />
           <BlogNav />
+          <NavigationWidget title1="Get A Quote" link1="web-design-quote" />
         </TextContainer>
       </Layout>
     )

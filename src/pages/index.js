@@ -128,8 +128,8 @@ class IndexPage extends Component {
               <br />
               one pixel at a time.
             </p>
-            <Link to="/">Contact Us</Link>
-            <Link to="/">Get a Quote</Link>
+            <Link to="/portfolio">Our Portfolio</Link>
+            <Link to="/web-design-quote">Get a Quote</Link>
           </div>
 
           {/* <p>

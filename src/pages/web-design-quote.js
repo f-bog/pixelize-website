@@ -68,36 +68,55 @@ const QuotePage = () => (
     <TextContainer>
       <h1>Get A Free Web Design Quote</h1>
       <p style={{ textAlign: "center" }}>
-        Welcome to our web design quote form!
+        A few questions to get the ball rolling! But if the thought of typing is
+        giving you a headache, please feel free to give us a call instead!
       </p>
+      <a className="readmore" href="tel:0424933007">
+        Call Now
+      </a>
       <h2>Before we get started</h2>
-      <p>
-        Before you get started let us give you a basic explaination about how
-        our process works.
-      </p>
+      <p>Here is some basic information about how our process works.</p>
       <h3>Step One: Fill out the form in the best detail you can</h3>
       <p>
-        This allows us to prepare and do research according to your needs.
-        Please take your time! This might also be a good idea to talk things
-        over with your business partner/partners if you aren't a one man band.
+        This will help us get a good idea of what you are after and understand
+        what services you require. Please take your time, and if you have any
+        questions, feel free to call us. This is also a good opportunity to talk
+        things over with your business partner/partners if you’re not a
+        one-man-band!
       </p>
+      <p>Once you are done, hit the send button!</p>
       <p>
-        Once you are done hit the submit button! With the information you give
-        us, we go over all the technical stuffs! Such as market competition,
-        keywords, technologies, design, time estimates, etc.
+        With the information you have provided, we will go over all the
+        technical stuff! Such as market competition, keywords, technologies,
+        design, time estimates, etc.
       </p>
 
-      <h3>Step Two: Expect a Call!</h3>
+      <h3>Step Two: Making Contact</h3>
       <p>
-        Once we get a good understanding of the stuff you may need, we contact
-        you get further details on the project!
+        Once we have a good understanding of the services you require, we will
+        contact you by phone or email to get further details on the project!
       </p>
-      <h3>Step Three: Sending you the Quote</h3>
+      <h3>Step Three: Receiving your quote and what to expect </h3>
       <p>
-        Lorem ipsum dolor amet knausgaard ennui whatever deep v four loko. Tote
-        bag vegan before they sold out, scenester ramps adaptogen man bun af
-        butcher locavore chillwave cray. Literally ramps vice hot chicken, cray
-        kickstarter hashtag sustainable sriracha.
+        After thorough research on your project, we will send you a quote via
+        email, which will be valid for two weeks. Once you approve your quote,
+        we send you an invoice for 50% of the total project cost. After payment
+        has been received…the fun begins!
+      </p>
+      <p>
+        During this time, we work closely with you by answering all your
+        questions and provide you with project updates and information.{" "}
+      </p>
+      <h3>Step Four: Your website with a bow on top</h3>
+      <p>
+        The last and most fun step, your completed website (cue applause)! Your
+        satisfaction means everything to us, so we won’t stop till we achieve
+        it.{" "}
+      </p>
+      <p>
+        Once your dream website has come to fruition, we will send you the final
+        invoice for the payment remainder and hand you your freshly crafted
+        website with a bow on top!
       </p>
       <FormContainer
         method="POST"
@@ -118,7 +137,7 @@ const QuotePage = () => (
             <input
               id="name"
               name="name"
-              placeholder="John Appleseed"
+              placeholder="Bruce Wayne"
               type="text"
             />
           </label>
@@ -143,6 +162,7 @@ const QuotePage = () => (
               name="email"
               placeholder="name@email.com"
               type="email"
+              required
             />
           </label>
         </p>
@@ -155,7 +175,18 @@ const QuotePage = () => (
               name="phone"
               placeholder="0000-000-000"
               type="text"
+              required
             />
+          </label>
+        </p>
+        <p>
+          <label>
+            Prefered method of contact:
+            <br />
+            <select name="ContactMethod" required>
+              <option value="phone">Phone</option>
+              <option value="email">Email</option>
+            </select>
           </label>
         </p>
         <p>
@@ -165,11 +196,23 @@ const QuotePage = () => (
             <input name="website" placeholder="www.example.com" type="text" />
           </label>
         </p>
+
+        <p>
+          <label>
+            If you know of any websites you like, please state them here:
+            <br />
+            <input
+              name="LikedWebsites"
+              placeholder="www.example.com www.pixelize.com.au"
+              type="text"
+            />
+          </label>
+        </p>
         <p>
           <label>
             Project budget:
             <br />
-            <select id="budget" name="budget">
+            <select id="budget" name="budget" required>
               <option value="$1000-$2000">$1000-$2000</option>
               <option value="$2000-$3000">$2000-$3000</option>
               <option value="$3000-$4000">$3000-$4000</option>
@@ -177,6 +220,7 @@ const QuotePage = () => (
             </select>
           </label>
         </p>
+
         <p>
           <label htmlFor="description">
             What does your business do?:

@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BlogIllustration from "../components/GatsbyImages/BlogIllustration"
 import TextContainer from "../components/Containers/TextContainer"
+import NavigationWidget from "../components/Navigation/NavigationWidget"
 const BlogPage = () => (
   <Layout>
     <SEO title="Web Design & Marketing Blog" />
@@ -13,7 +14,7 @@ const BlogPage = () => (
       <h1>Our Blog</h1>
       <p>Welcome to Our Blog</p>
       <Archive />
-      <Link to="/">Go back to the homepage</Link>
+      <NavigationWidget title2="Get A Quote" link2="web-design-quote" />
     </TextContainer>
   </Layout>
 )

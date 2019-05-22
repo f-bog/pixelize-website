@@ -4,7 +4,7 @@ import TextContainer from "../../components/Containers/TextContainer"
 import DesignIllustration from "../../components/GatsbyImages/DesignIllustration"
 import WebsiteDinoPoodle from "../../components/GatsbyImages/WebsiteDinoPoodle"
 import Layout from "../../components/layout"
-
+import NavigationWidget from "../../components/Navigation/NavigationWidget"
 const DesignPage = () => (
   <Layout>
     <SEO title="Graphic Design & Branding" />
@@ -82,6 +82,12 @@ const DesignPage = () => (
           <strong>Invoice template design</strong>
         </li>
       </ul>
+      <NavigationWidget
+        title1="More Services"
+        title2="Get A Quote"
+        link1="services"
+        link2="web-design-quote"
+      />
     </TextContainer>
   </Layout>
 )
