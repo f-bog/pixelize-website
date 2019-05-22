@@ -7,7 +7,8 @@ const FormContainer = styled.form`
   display: block;
   margin: 0 auto;
   width: 80%;
-  label {
+  label,
+  span {
     display: block;
     font-weight: 900;
     font-size: 18px;
@@ -104,99 +105,138 @@ const QuotePage = () => (
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
-        <p style={{ visibility: "hidden" }}>
+        <input type="hidden" name="form-name" value="contact" />
+        <p hidden>
           <label>
-            Don’t fill this out if you're human: <input name="bot-field" />
+            Don’t fill this out: <input name="bot-field" />
           </label>
         </p>
-        <label htmlFor="name">Your name</label>
-        <input id="name" name="name" placeholder="John Appleseed" type="text" />
-        <label htmlFor="business">Name of business</label>
-        <input
-          id="business"
-          name="business"
-          placeholder="Business Name"
-          type="text"
-        />
-        <label htmlFor="email">Your email (required)</label>
-        <input
-          id="email"
-          name="email"
-          placeholder="name@email.com"
-          type="email"
-        />
-        <label htmlFor="phone">Your phone number (required)</label>
-        <input id="phone" name="phone" placeholder="0000-000-000" type="text" />
-        <label htmlFor="website">
-          Please state your existing website (if you have one)
-        </label>
-        <input
-          id="phone"
-          name="phone"
-          placeholder="www.example.com"
-          type="text"
-        />
-        <label htmlFor="budget">Project budget</label>
-        <select id="budget" name="budget">
-          <option value="$1000-$2000">$1000-$2000</option>
-          <option value="$2000-$3000">$2000-$3000</option>
-          <option value="$3000-$4000">$3000-$4000</option>
-          <option value="$4000">$4000+</option>
-        </select>
-        <label htmlFor="description">What does your business do?</label>
+        <p>
+          <label htmlFor="name">
+            Your name:
+            <br />
+            <input
+              id="name"
+              name="name"
+              placeholder="John Appleseed"
+              type="text"
+            />
+          </label>
+        </p>
+        <p>
+          <label>
+            Name of business: <br />
+            <input
+              id="business"
+              name="business"
+              placeholder="Business Name"
+              type="text"
+            />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your email (required):
+            <br />
+            <input
+              id="email"
+              name="email"
+              placeholder="name@email.com"
+              type="email"
+            />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your phone number (required):
+            <br />
+            <input
+              id="phone"
+              name="phone"
+              placeholder="0000-000-000"
+              type="text"
+            />
+          </label>
+        </p>
+        <p>
+          <label>
+            Please state your existing website (if you have one):
+            <br />
+            <input name="website" placeholder="www.example.com" type="text" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Project budget:
+            <br />
+            <select id="budget" name="budget">
+              <option value="$1000-$2000">$1000-$2000</option>
+              <option value="$2000-$3000">$2000-$3000</option>
+              <option value="$3000-$4000">$3000-$4000</option>
+              <option value="$4000">$4000+</option>
+            </select>
+          </label>
+        </p>
+        <p>
+          <label htmlFor="description">
+            What does your business do?:
+            <textarea id="description" name="description" />
+          </label>
+        </p>
+        <p>
+          <label htmlFor="idealcustomer">
+            Describe your ideal website visitor:
+            <textarea id="idealcustomer" name="idealcustomer" />
+          </label>
+        </p>
 
-        <textarea id="description" name="description" />
-        <label htmlFor="idealcustomer">
-          Describe your ideal website visitor
-        </label>
-
-        <textarea id="idealcustomer" name="idealcustomer" />
-
-        <h3>Please check the services required:</h3>
         <br />
-        <label htmlFor="webdesign">
-          <input
-            className="services"
-            id="webdesign"
-            type="checkbox"
-            name="service1"
-            value="webdesign"
-          />{" "}
-          Web Design
-        </label>
-        <br />
-        <label htmlFor="seo">
-          <input
-            id="seo"
-            className="services"
-            type="checkbox"
-            name="service2"
-            value="SEO"
-          />{" "}
-          SEO (Search Engine Optimisation)
-        </label>
-        <br />
-        <label htmlFor="print">
-          <input
-            id="print"
-            className="services"
-            type="checkbox"
-            name="service2"
-            value="print"
-          />{" "}
-          Print Design
-        </label>
-        <br />
-        <label htmlFor="logo">
-          <input
-            id="logo"
-            className="services"
-            type="checkbox"
-            name="service2"
-            value="Logo"
-          />{" "}
-          Logo Design
-        </label>
+        <p>
+          <span>Services needed:</span>
+          <label htmlFor="webdesign">
+            <input
+              className="services"
+              id="webdesign"
+              type="checkbox"
+              name="service1"
+              value="webdesign"
+            />{" "}
+            Web Design
+          </label>
+          <br />
+          <label htmlFor="seo">
+            <input
+              id="seo"
+              className="services"
+              type="checkbox"
+              name="service2"
+              value="SEO"
+            />{" "}
+            SEO (Search Engine Optimisation)
+          </label>
+          <br />
+          <label htmlFor="print">
+            <input
+              id="print"
+              className="services"
+              type="checkbox"
+              name="service3"
+              value="print"
+            />{" "}
+            Print Design
+          </label>
+          <br />
+          <label htmlFor="logo">
+            <input
+              id="logo"
+              className="services"
+              type="checkbox"
+              name="service4"
+              value="logo"
+            />{" "}
+            Logo Design & Branding
+          </label>
+        </p>
 
         <button type="submit" className="readmore">
           Send
