@@ -137,7 +137,7 @@ const NavigationLinks = () => (
         <Link to="/">Contact</Link>
       </li>
       <li>
-        <Link to="/">Get a Quote</Link>
+        <Link to="/web-design-quote">Get a Quote</Link>
       </li>
     </ul>
   </Navigation>

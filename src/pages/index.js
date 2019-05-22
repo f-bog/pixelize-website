@@ -232,7 +232,7 @@ class IndexPage extends Component {
               maxWidth: "500px",
               textAlign: "left",
               margin: "0 auto",
-              background: "rgb(148, 0, 255)",
+              background: "#00aeff",
               color: "white",
               padding: "25px",
               borderRadius: "10px",
