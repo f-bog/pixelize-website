@@ -21,7 +21,6 @@ export default class postLayout extends Component {
             }}
           />
           <BlogNav />
-          <NavigationWidget title1="Get A Quote" link1="web-design-quote" />
         </TextContainer>
       </Layout>
     )

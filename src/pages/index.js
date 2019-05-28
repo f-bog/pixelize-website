@@ -97,6 +97,23 @@ const ServiceCard = styled.div`
     }
   }
 `
+
+const WhyCard = styled.div`
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto;
+  background: #00aeff;
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  a {
+    color: white;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+`
 class IndexPage extends Component {
   render() {
     return (
@@ -227,29 +244,35 @@ class IndexPage extends Component {
         <WhiteContainer heading="Why should you use Pixelize?">
           <WhyPixelize />
 
-          <p
-            style={{
-              maxWidth: "500px",
-              textAlign: "left",
-              margin: "0 auto",
-              background: "#00aeff",
-              color: "white",
-              padding: "25px",
-              borderRadius: "10px",
-            }}
-          >
-            We want you to be 100% happy with the services you receive from us
-            and be proud to show them off. That is why strong technical
-            abilities and quality customer service are the guiding forces in all
-            of our projects. We are always here to help! With our 24/7 support
-            on all of your web issues, concerns and inquiries, you will never
-            feel left in the dust. We give you honest, reliable information and
-            support (without all the technical jargon).
-            <br />
-            <br />
-            We genuinely love what we do, and handcrafting your project to
-            perfection is the way we show it!
-          </p>
+          <WhyCard>
+            <p>
+              We want you to be 100% happy with the services you receive from us
+              and be proud to show them off. That is why strong technical
+              abilities and quality customer service are the guiding forces in
+              all of our projects. We are always here to help! With our 24/7
+              support on all of your web issues, concerns and inquiries, you
+              will never feel left in the dust. We give you honest, reliable
+              information and support (without all the technical jargon).
+            </p>
+            <p>
+              We genuinely love what we do, and handcrafting your project to
+              perfection is the way we show it!
+            </p>
+            <ul>
+              <li>
+                <Link to="/web-design-quote">Get A Quote</Link>
+              </li>
+              <li>
+                <Link to="/services">Our Services</Link>
+              </li>
+              <li>
+                <Link to="/portfolio">Our Portfolio</Link>
+              </li>
+              <li>
+                <Link to="/about">About Us</Link>
+              </li>
+            </ul>
+          </WhyCard>
         </WhiteContainer>
       </Layout>
     )
