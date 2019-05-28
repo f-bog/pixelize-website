@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import TextContainer from "../components/Containers/TextContainer"
+import QuoteIllustration from "../components/GatsbyImages/QuoteIllustration"
 
 const FormContainer = styled.form`
   display: block;
@@ -66,6 +67,7 @@ const FormContainer = styled.form`
 const QuotePage = () => (
   <Layout>
     <TextContainer>
+      <QuoteIllustration />
       <h1>Get A Free Web Design Quote</h1>
       <p style={{ textAlign: "center" }}>
         A few questions to get the ball rolling! But if the thought of typing is
