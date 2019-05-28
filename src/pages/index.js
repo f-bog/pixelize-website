@@ -238,14 +238,17 @@ class IndexPage extends Component {
               borderRadius: "10px",
             }}
           >
-            Lorem ipsum dolor amet fixie you probably haven't heard of them
-            taxidermy master cleanse leggings stumptown. Microdosing pabst
-            artisan cold-pressed, mustache authentic occupy twee lo-fi squid
-            iPhone adaptogen. Single-origin coffee XOXO iPhone squid flannel tbh
-            cliche intelligentsia put a bird on it brunch stumptown
-            vexillologist kombucha irony. Before they sold out beard VHS la
-            croix pickled deep v vice tousled sriracha poutine swag hammock
-            bushwick shaman.{" "}
+            We want you to be 100% happy with the services you receive from us
+            and be proud to show them off. That is why strong technical
+            abilities and quality customer service are the guiding forces in all
+            of our projects. We are always here to help! With our 24/7 support
+            on all of your web issues, concerns and inquiries, you will never
+            feel left in the dust. We give you honest, reliable information and
+            support (without all the technical jargon).
+            <br />
+            <br />
+            We genuinely love what we do, and handcrafting your project to
+            perfection is the way we show it!
           </p>
         </WhiteContainer>
       </Layout>

@@ -59,6 +59,59 @@ const WebPage = () => (
         <strong>Fun fact:</strong> Did you know that the colour blue makes your
         website visitor feel a sense of reliability & trustworthiness?
       </p>
+
+      <h2>Web Development</h2>
+      <p>
+        This is the most important part, think of Web Development as the “meat
+        and potatoes” of your website and our Gold Coast web developers offer
+        you a couple different options!
+      </p>
+      <h3>Wordpress Development</h3>
+      <p>
+        With nearly 35% of all websites being powered through Wordpress, it goes
+        without saying, they have been around for a long time.
+      </p>
+      <p>
+        However, without getting all “technical”, many WordPress websites
+        experience long loading times due to the many hoops that information
+        must jump through in order to reach the server and then back to your
+        computer.{" "}
+      </p>
+      <p>
+        With the average website visitor not willing to wait longer than 3
+        seconds for your pages to load, this can oppose a problem, but if made
+        with the best practices in mind, they can not only be fast, but they can
+        also offer an array of benefits, such as, easy e-commerce integration
+        and a content management system (CMS) that is simple to use.
+      </p>
+      <p>
+        Whether you are after a custom WordPress template or a simple redo, our
+        Gold Coast web developers understand the “ins and outs” of WordPress,
+        which means, we find the best solutions to make your visitor’s
+        experience on your website seamless and enjoyable.
+      </p>
+      <h3>Serverless Websites (Gatsby.js)</h3>
+      <p>
+        There is tremendous value in the speed of your website, not only due to
+        the importance of grasping the attention of your audience as soon as
+        possible but also because it helps in assisting your sites SEO ranking.
+        This is where Gatsby comes in.{" "}
+      </p>
+      <p>
+        The best way to explain this serverless technology is to think of it as
+        a 5-star buffet restaurant. All you have to do is simply grab the food
+        you want and start eating, no ordering and no waiting. This is the same
+        way Gatsby works, all of the pages on your website are “pre-cooked”, or
+        in technical terms “pre-loaded”, so all you need to do is click the page
+        you want to see, and bam…there it is!
+      </p>
+      <p>
+        Through Gatsby.js, our Gold Coast web developers can hand-craft you a
+        beautiful website like no other. With Gatsby’s unmatched loading times,
+        seamless UI development, dynamic content and ability to boost your SEO
+        rankings, it has proven itself to be the best way to future proof your
+        website and best of all, no more dreaded loading wheel!
+      </p>
     </TextContainer>
   </Layout>
 )
