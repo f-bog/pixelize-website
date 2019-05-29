@@ -136,12 +136,7 @@ const QuotePage = () => (
           <label htmlFor="name">
             Your name:
             <br />
-            <input
-              id="name"
-              name="name"
-              placeholder="Bruce Wayne"
-              type="text"
-            />
+            <input id="name" name="name" placeholder="Elon Musk" type="text" />
           </label>
         </p>
         <p>
@@ -150,7 +145,7 @@ const QuotePage = () => (
             <input
               id="business"
               name="business"
-              placeholder="Business Name"
+              placeholder="SpaceX"
               type="text"
             />
           </label>

@@ -69,9 +69,9 @@ const WebPage = () => (
         you a couple different options!
       </p>
       <WordPressIllustration />
-      <h3>Wordpress Development</h3>
+      <h3>WordPress Development</h3>
       <p>
-        With nearly 35% of all websites being powered through Wordpress, it goes
+        With nearly 35% of all websites being powered through WordPress, it goes
         without saying, they have been around for a long time.
       </p>
       <p>
@@ -100,7 +100,7 @@ const WebPage = () => (
         There is tremendous value in the speed of your website, not only due to
         the importance of grasping the attention of your audience as soon as
         possible but also because it helps in assisting your sites SEO ranking.
-        This is where Gatsby comes in.{" "}
+        This is where Gatsby.js comes in.{" "}
       </p>
 
       <p>

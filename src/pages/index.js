@@ -113,6 +113,16 @@ const WhyCard = styled.div`
   ul li {
     margin-bottom: 10px;
   }
+  ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+  }
+  @media only screen and (min-width: 797px) {
+    ul {
+      flex-direction: row;
+    }
+  }
 `
 class IndexPage extends Component {
   render() {
@@ -199,7 +209,9 @@ class IndexPage extends Component {
           <ServiceCard>
             {/* <img src={DesignIcon} width="100px" /> */}
             <div>
-              <Image />
+              <Link to="/services/graphic-design-gold-coast">
+                <Image />
+              </Link>
               <h3>Graphic Design</h3>
               <p>
                 Everyone of our designs is like a fingerprint… no two are alike.
@@ -213,7 +225,9 @@ class IndexPage extends Component {
           </ServiceCard>
           <ServiceCard>
             <div>
-              <DevImg />
+              <Link to="/services/web-design-gold-coast">
+                <DevImg />
+              </Link>
               <h3>Web Development</h3>
               <p>
                 We lighten your load by handling the code, from customising
@@ -228,7 +242,9 @@ class IndexPage extends Component {
           </ServiceCard>
           <ServiceCard>
             <div>
-              <SeoImg />
+              <Link to="/services/seo-gold-coast">
+                <SeoImg />
+              </Link>
               <h3>SEO & Content</h3>
               <p>
                 Our SEO and content professionals consult with you to understand
