@@ -4,6 +4,8 @@ import TextContainer from "../../components/Containers/TextContainer"
 import DevelopmentIllustration from "../../components/GatsbyImages/DevelopmentIllustration"
 
 import Layout from "../../components/layout"
+import GatsbyIllustration from "../../components/GatsbyImages/GatsbyIllustration"
+import WordPressIllustration from "../../components/GatsbyImages/WordPressIllustration"
 
 const WebPage = () => (
   <Layout>
@@ -66,6 +68,7 @@ const WebPage = () => (
         and potatoes” of your website and our Gold Coast web developers offer
         you a couple different options!
       </p>
+      <WordPressIllustration />
       <h3>Wordpress Development</h3>
       <p>
         With nearly 35% of all websites being powered through Wordpress, it goes
@@ -90,13 +93,16 @@ const WebPage = () => (
         which means, we find the best solutions to make your visitor’s
         experience on your website seamless and enjoyable.
       </p>
+      <GatsbyIllustration />
       <h3>Serverless Websites (Gatsby.js)</h3>
+
       <p>
         There is tremendous value in the speed of your website, not only due to
         the importance of grasping the attention of your audience as soon as
         possible but also because it helps in assisting your sites SEO ranking.
         This is where Gatsby comes in.{" "}
       </p>
+
       <p>
         The best way to explain this serverless technology is to think of it as
         a 5-star buffet restaurant. All you have to do is simply grab the food
