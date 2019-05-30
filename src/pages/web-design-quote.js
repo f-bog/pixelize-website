@@ -245,12 +245,23 @@ const QuotePage = () => (
             Web Design
           </label>
           <br />
+          <label htmlFor="ecommerce">
+            <input
+              className="services"
+              id="ecommerce"
+              type="checkbox"
+              name="service2"
+              value="ecommerce"
+            />{" "}
+            E-Commerce (Online Store Development)
+          </label>
+          <br />
           <label htmlFor="seo">
             <input
               id="seo"
               className="services"
               type="checkbox"
-              name="service2"
+              name="service3"
               value="SEO"
             />{" "}
             SEO (Search Engine Optimisation)
@@ -261,7 +272,7 @@ const QuotePage = () => (
               id="print"
               className="services"
               type="checkbox"
-              name="service3"
+              name="service4"
               value="print"
             />{" "}
             Print Design
@@ -272,7 +283,7 @@ const QuotePage = () => (
               id="logo"
               className="services"
               type="checkbox"
-              name="service4"
+              name="service5"
               value="logo"
             />{" "}
             Logo Design & Branding
