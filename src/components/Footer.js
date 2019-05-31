@@ -99,7 +99,9 @@ const Footer = () => (
         </FooterMenu>
       </div>
 
-      <div>{new Date().getFullYear()},</div>
+      <div>
+        © Copyright {new Date().getFullYear()} · Pixelize · All Rights Reserved
+      </div>
     </FooterContainer>
   </FooterWrapper>
 )
