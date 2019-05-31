@@ -190,7 +190,7 @@ class IndexPage extends Component {
             Provide us with your vision and we will <strong>Pixelize</strong> it
             into digital life!
           </p>
-          <Link to="/">Read More</Link>
+          <Link to="/about">About Us</Link>
         </GreyContainer>
         <WhiteContainer
           heading="Services"
@@ -202,7 +202,8 @@ class IndexPage extends Component {
               <strong> visitors </strong>
               with a <strong>magnificent</strong> first impression.
               <br />
-              <Link to="/services/">Read More</Link>
+              <br />
+              <Link to="/services/">Our Services</Link>
             </p>
           }
         >

@@ -165,14 +165,13 @@ const QuotePage = () => (
         </p>
         <p>
           <label>
-            Your phone number (required):
+            Your phone number:
             <br />
             <input
               id="phone"
               name="phone"
               placeholder="0000-000-000"
               type="text"
-              required
             />
           </label>
         </p>
@@ -210,7 +209,7 @@ const QuotePage = () => (
             Project budget:
             <br />
             <select id="budget" name="budget" required>
-              <option value="$1000-$2000">$1000-$2000</option>
+              <option value="$1500-$2000">$1500-$2000</option>
               <option value="$2000-$3000">$2000-$3000</option>
               <option value="$3000-$4000">$3000-$4000</option>
               <option value="$4000">$4000+</option>
