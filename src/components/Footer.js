@@ -99,7 +99,7 @@ const Footer = () => (
         </FooterMenu>
       </div>
 
-      <div>
+      <div style={{ textAlign: "center", fontSize: "14px" }}>
         © Copyright {new Date().getFullYear()} · Pixelize · All Rights Reserved
       </div>
     </FooterContainer>

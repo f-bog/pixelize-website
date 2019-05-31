@@ -195,16 +195,16 @@ class IndexPage extends Component {
         <WhiteContainer
           heading="Services"
           description={
-            <p>
-              Our team of Gold Coast web designers and SEO/content creators
-              channel their creative energy to create <strong>you</strong> and
-              your
-              <strong> visitors </strong>
-              with a <strong>magnificent</strong> first impression.
-              <br />
-              <br />
+            <>
+              <p>
+                Our team of Gold Coast web designers and SEO/content creators
+                channel their creative energy to create <strong>you</strong> and
+                your
+                <strong> visitors </strong>
+                with a <strong>magnificent</strong> first impression.
+              </p>
               <Link to="/services/">Our Services</Link>
-            </p>
+            </>
           }
         >
           <ServiceCard>
