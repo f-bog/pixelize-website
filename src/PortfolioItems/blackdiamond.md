@@ -2,6 +2,7 @@
 slug: "/blackdiamond"
 date: "2019-04-11"
 title: "Black Diamond Electrical Services S.A."
+value: "website"
 thumbnail: "../images/blackdiamond.jpg"
 url: "https://www.blackdiamondes.com"
 ---

@@ -11,8 +11,14 @@ const BlogPage = () => (
     <SEO title="Web Design & Marketing Blog" />
     <TextContainer>
       <BlogIllustration />
-      <h1>Our Blog</h1>
-      <p>Welcome to Our Blog</p>
+      <h1>The Bookshelf</h1>
+      <p style={{ textAlign: "center" }}>
+        (Insert Jazz Music here) Is it raining outside? Can’t be bothered
+        leaving the house? Us too… why don’t you heat yourself up a warm glass
+        of full-fat milk, cuddle up to your laptop, grab one of our books off
+        the shelf, and proudly wear that milk moustache because you’re about to
+        have one wild night in.
+      </p>
       <Archive />
       <NavigationWidget title2="Get A Quote" link2="web-design-quote" />
     </TextContainer>

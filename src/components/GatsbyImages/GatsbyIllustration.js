@@ -30,7 +30,7 @@ const GatsbyIllustration = () => (
       <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
         style={{ display: "block", maxWidth: "700px" }}
-        alt="Illustration of gatsbyjs development"
+        alt="Illustration of Gatsby.js development"
       />
     )}
   />

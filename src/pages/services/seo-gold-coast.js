@@ -5,6 +5,7 @@ import SeoIllustration from "../../components/GatsbyImages/SeoIllustration"
 
 import { Link } from "gatsby"
 import Layout from "../../components/layout"
+import NavigationWidget from "../../components/Navigation/NavigationWidget"
 
 const SeoPage = () => (
   <Layout>
@@ -84,6 +85,12 @@ const SeoPage = () => (
         with you to understand and develop a consistent brand voice and persona
         that expresses who and what you are.
       </p>
+      <NavigationWidget
+        title1="More Services"
+        title2="Get A Quote"
+        link1="services"
+        link2="web-design-quote"
+      />
     </TextContainer>
   </Layout>
 )

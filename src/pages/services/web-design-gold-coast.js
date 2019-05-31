@@ -6,6 +6,7 @@ import DevelopmentIllustration from "../../components/GatsbyImages/DevelopmentIl
 import Layout from "../../components/layout"
 import GatsbyIllustration from "../../components/GatsbyImages/GatsbyIllustration"
 import WordPressIllustration from "../../components/GatsbyImages/WordPressIllustration"
+import NavigationWidget from "../../components/Navigation/NavigationWidget"
 
 const WebPage = () => (
   <Layout>
@@ -118,6 +119,12 @@ const WebPage = () => (
         rankings, it has proven itself to be the best way to future proof your
         website and best of all, no more dreaded loading wheel!
       </p>
+      <NavigationWidget
+        title1="More Services"
+        title2="Get A Quote"
+        link1="services"
+        link2="web-design-quote"
+      />
     </TextContainer>
   </Layout>
 )
