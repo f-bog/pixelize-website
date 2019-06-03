@@ -2,19 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `Pixelize`,
     description: `Creative Web Design Gold Coast professionals, specialising in building lightning fast websites with a strong focus on SEO. Provide us with your vision and we will pixelize it into digital life.`,
+    siteUrl: `https://www.pixelize.com.au`,
     author: `@Pixelize`,
   },
 
   plugins: [
-    {
-      resolve: "gatsby-plugin-robots-txt",
-      options: {
-        host: "https://blissful-mayer-9c22ec.netlify.com/",
-        sitemap: "https://blissful-mayer-9c22ec.netlify.com/sitemap.xml",
-        policy: [{ userAgent: "*", disallow: "/" }],
-      },
-    },
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {

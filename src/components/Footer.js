@@ -84,17 +84,17 @@ const Footer = () => (
             <Link to="/services">Services</Link>
           </li>
           <li>
-            <Link to="/">Portfolio</Link>
+            <Link to="/portfolio">Portfolio</Link>
           </li>
           <li>
-            <Link to="/">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
             <Link to="/blog">Blog</Link>
           </li>
 
           <li>
-            <Link to="/">Get a Quote</Link>
+            <Link to="/web-design-quote">Get a Quote</Link>
           </li>
         </FooterMenu>
       </div>

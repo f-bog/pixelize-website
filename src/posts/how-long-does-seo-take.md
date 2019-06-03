@@ -5,6 +5,7 @@ alt: illustration for how long seo takes blog post
 title: How Long Does SEO Take?
 thumbnail: /img/seo-graphic.jpg
 ---
+
 # How long will it take for my SEO to work?
 
 This is a common question people ask about their SEO, but ultimately, the answer requires more questions about your specific website and business.
