@@ -3,10 +3,9 @@ slug: "/blackdiamond"
 date: "2019-04-11"
 title: "Black Diamond Electrical Services S.A."
 value: "website"
+alt: "image of black diamond website"
 thumbnail: "../images/blackdiamond.jpg"
 url: "https://www.blackdiamondes.com"
 ---
 
-Solar Power Plus is an electrical services company based in South Australia for over 40 years.
-They recently went through a rebranding process and needed to have a clean, elegant, logo and website made.
-Built with the genesis framework on WordPress, we provided them with a blazing fast responsive website that is extremely easy to navigate.
+Black Diamond Electrical Services S.A. Is an electrical services company providing a wide array of electrical services for Adelaides residential and commercial sectors. They needed a fast optimised website with the ability to manage their own content, which is why we opted to use WordPress a long with the genesis framework.

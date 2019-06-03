@@ -1,6 +1,6 @@
 import React from "react"
-import styled from "styled-components"
-import { Link, StaticQuery, graphql } from "gatsby"
+
+import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 const LOGO_PORTFOLIO_CARD_QUERY = graphql`
@@ -14,6 +14,7 @@ const LOGO_PORTFOLIO_CARD_QUERY = graphql`
             url
             title
             value
+            alt
             thumbnail {
               childImageSharp {
                 fluid(maxHeight: 1000, quality: 100) {
@@ -39,6 +40,7 @@ const LogoPortfolioCards = () => (
           >
             <span>{edge.node.frontmatter.value} Design</span>
             <Img
+              alt={edge.node.frontmatter.alt}
               fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid}
             />
             <h3>{edge.node.frontmatter.title}</h3>

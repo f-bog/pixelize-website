@@ -12,6 +12,7 @@ export default class postLayout extends Component {
       <Layout>
         <TextContainer>
           <Img
+            alt={markdownRemark.frontmatter.alt}
             fluid={markdownRemark.frontmatter.thumbnail.childImageSharp.fluid}
           />
           <div
@@ -42,6 +43,7 @@ export const query = graphql`
         title
         date
         slug
+        alt
       }
     }
   }
