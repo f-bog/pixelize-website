@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { graphql } from "gatsby"
 import Layout from "./layout"
+import SEO from "./seo"
 import BlogNav from "../components/Navigation/BlogNav"
 import Img from "gatsby-image"
 import TextContainer from "../components/Containers/TextContainer"
@@ -10,6 +11,7 @@ export default class postLayout extends Component {
     const { markdownRemark } = this.props.data
     return (
       <Layout>
+        <SEO title={markdownRemark.frontmatter.title} />
         <TextContainer>
           <Img
             alt={markdownRemark.frontmatter.alt}

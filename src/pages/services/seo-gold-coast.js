@@ -9,7 +9,13 @@ import NavigationWidget from "../../components/Navigation/NavigationWidget"
 
 const SeoPage = () => (
   <Layout>
-    <SEO title="Content Management & SEO Gold Coast" />
+    <SEO
+      title="Content Writing & SEO Gold Coast"
+      description="If a tree falls in a forest and nobody is around to hear it, did it make
+        a sound? I suppose not, and if it did... no one was there to hear it, so
+        does even it matter? That is the same analogy you should think of when
+        it comes to your website’s SEO."
+    />
 
     <TextContainer>
       <SeoIllustration />

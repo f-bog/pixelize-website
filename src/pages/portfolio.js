@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import styled from "styled-components"
-
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 import TextContainer from "../components/Containers/TextContainer"
 import PortfolioIllustration from "../components/GatsbyImages/PortfolioIllustration"
@@ -99,6 +99,7 @@ class PortfolioPage extends Component {
     }
     return (
       <Layout>
+        <SEO title="Web Design Portfolio" />
         <TextContainer>
           <PortfolioIllustration />
 

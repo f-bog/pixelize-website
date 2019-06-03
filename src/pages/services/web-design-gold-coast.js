@@ -10,7 +10,10 @@ import NavigationWidget from "../../components/Navigation/NavigationWidget"
 
 const WebPage = () => (
   <Layout>
-    <SEO title="Web Design & Development Gold Coast" />
+    <SEO
+      title="Web Design & Development Gold Coast"
+      description="Our in-house team of Gold Coast web designers and web developers mix their knowledge of beautiful user-friendly designs, technical abilities along with a splash of creative juice to hand-craft you a website that will captivate your audience through blazing fast load times and a stunning visual experience."
+    />
 
     <TextContainer>
       <DevelopmentIllustration />

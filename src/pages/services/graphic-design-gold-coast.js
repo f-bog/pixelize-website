@@ -7,7 +7,10 @@ import Layout from "../../components/layout"
 import NavigationWidget from "../../components/Navigation/NavigationWidget"
 const DesignPage = () => (
   <Layout>
-    <SEO title="Graphic Design & Branding" />
+    <SEO
+      title="Graphic Design & Branding"
+      description="A brand isn’t just a logo and a website. It is the visual voice and persona of who and what your business is, so we think it should have some flair."
+    />
 
     <TextContainer>
       <DesignIllustration />

@@ -3,11 +3,12 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 import FooterEmblem from "../components/FooterEmblem"
 const FooterWrapper = styled.footer`
+  display: flex;
+  align-items: center;
   background: black;
-
   color: white;
   width: 100%;
-  min-height: 100px;
+  min-height: 300px;
 `
 
 const FooterContainer = styled.div`

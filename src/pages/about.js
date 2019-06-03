@@ -1,10 +1,16 @@
 import React from "react"
-
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 import TextContainer from "../components/Containers/TextContainer"
 
 const AboutPage = () => (
   <Layout>
+    <SEO
+      title="Web Designers Gold Coast"
+      description="Our millennial love for all things digital and internet-based has been a
+        staple in our lives, always appearing in the form of fun little side
+        projects for friends and family. We have always believed the best way we as a company can be truly successful, is if we treat each of our client’s projects as if they were our own."
+    />
     <TextContainer>
       <h1>The Origin Story</h1>
       <p>

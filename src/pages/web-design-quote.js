@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 import TextContainer from "../components/Containers/TextContainer"
 import QuoteIllustration from "../components/GatsbyImages/QuoteIllustration"
@@ -66,6 +67,7 @@ const FormContainer = styled.form`
 
 const QuotePage = () => (
   <Layout>
+    <SEO title="Web Design Quotes" />
     <TextContainer>
       <QuoteIllustration />
       <h1>Get A Free Web Design Quote</h1>
