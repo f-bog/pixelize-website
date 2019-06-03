@@ -48,6 +48,7 @@ const POST_ARCHIVE_QUERY = graphql`
                 }
               }
             }
+            alt
             title
             slug
             date(formatString: "MMMM DD, YYYY")
@@ -70,6 +71,7 @@ const Archive = ({ children }) => (
             </Link>
             <Link to={`/posts${edge.node.frontmatter.slug}`}>
               <Img
+                alt={edge.node.frontmatter.alt}
                 fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid}
               />
             </Link>
