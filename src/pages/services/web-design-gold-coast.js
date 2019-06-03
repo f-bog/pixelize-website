@@ -54,18 +54,6 @@ const WebPage = () => (
         more!
       </p>
 
-      <p
-        style={{
-          background: "#00b3ff",
-          color: "black",
-          borderRadius: "10px",
-          padding: "10px",
-        }}
-      >
-        <strong>Fun fact:</strong> Did you know that the colour blue makes your
-        website visitor feel a sense of reliability & trustworthiness?
-      </p>
-
       <h2>Web Development</h2>
       <p>
         This is the most important part, think of Web Development as the “meat
