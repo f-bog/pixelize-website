@@ -84,7 +84,7 @@ const DesignPage = () => (
       </ul>
       <NavigationWidget
         title1="More Services"
-        title2="Get A Quote"
+        title2="Get a Quote"
         link1="services"
         link2="web-design-quote"
       />

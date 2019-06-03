@@ -32,6 +32,7 @@ const PortfolioContainer = styled.div`
 
   .website,
   .logo {
+    position: relative;
     border-radius: 10px;
     margin: 50px auto;
     padding: 20px;
@@ -40,15 +41,18 @@ const PortfolioContainer = styled.div`
       font-size: 24px;
     }
     span {
+      position: absolute;
+      top: 0px;
+      left: 0px;
       display: block;
       margin-bottom: 10px;
       font-weight: 900;
       font-size: 16px;
       text-transform: capitalize;
-      padding: 10px;
-      border-radius: 10px;
+      padding: 5px;
+      border-radius: 10px 0px 0px 0px;
       color: white;
-      width: 100px;
+      width: 150px;
       text-align: center;
     }
     .readmore {
@@ -63,12 +67,14 @@ const PortfolioContainer = styled.div`
       transform: rotate(5deg);
       opacity: 0.6;
     }
-
+    .gatsby-image-wrapper {
+      margin-top: 20px;
+    }
     @media only screen and (min-width: 797px) {
     }
     .gatsby-image-wrapper {
       width: 100%;
-      margin: 0 auto;
+      margin: 20px auto;
       display: block;
     }
   }

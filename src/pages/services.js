@@ -10,6 +10,7 @@ import DevImg from "../components/GatsbyImages/DevImg"
 import SeoImg from "../components/GatsbyImages/SeoImg"
 import ServicesIllustration from "../components/GatsbyImages/ServicesIllustration"
 import Accordion from "../components/Accordion"
+import NavigationWidget from "../components/Navigation/NavigationWidget"
 
 const ServicePage = () => (
   <Layout>
@@ -97,9 +98,13 @@ const ServicePage = () => (
           presence.
         </p>
       </Accordion>
+      <NavigationWidget
+        title1="Back to Home"
+        link1=""
+        title2="Get a Quote"
+        link2="web-design-quote"
+      />
     </TextContainer>
-
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
