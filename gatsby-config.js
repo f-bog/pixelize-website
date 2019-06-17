@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Pixelize Web Design Gold Coast | Web Design & Development | SEO Marketing`,
+    title: `Pixelize Web Design Gold Coast | Web Design & SEO`,
     description: `Creative Web Design Gold Coast professionals, building super fast websites with a strong focus on SEO. Give us your vision and we will pixelize it into digital life.`,
     siteUrl: `https://www.pixelize.com.au`,
     author: `@Pixelize`,
