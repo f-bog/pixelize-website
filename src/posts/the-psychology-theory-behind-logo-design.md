@@ -17,13 +17,13 @@ Think of how the flags of different countries are used to identify a nation and 
 
 This idea got me thinking, if logos are just way to identify a business, then why have they been embedding in cultures across the globe, and why do they continue to withstand the test of time?
 
-While this is a complicated question, the answer that came to mind is...they give us a sense of connection, they are not merely a product of our minds, but instead, they seem to be in fact apart of our minds.  They provide us with an opportunity to identify who/what a group is even though they are faceless.  They give us a chance to decide if they are worthy of our trust or not.  These logos/symbols allow us to feel safe, secure and even a bit nostalgic but it all depends on the shapes, fonts, colours and icons you choose to use to convey your message or identity.
+While this is a complicated question, the answer that came to mind is...they give us a sense of connection, they are not merely a product of our minds, but instead, they seem to be in fact apart of our minds.  They provide us with an opportunity to identify who/what a group is even though they are faceless.  They give us a chance to decide if they are worthy of our trust or not.  These logos/symbols allow us to feel safe, secure and even a bit nostalgic but it all depends on the shapes, fonts, colours and icons you choose to convey your message and identity.
 
 Since this topic is a bit of a rabbit hole, with a bunch of sub-rabbit holes inside, let's keep this topic focused on the two most essential parts to convey your message via Logo:  Colours and Shape.
 
 ## Choosing colours for your logo
 
-There seems to be a lot of confusion around the idea of colours in relationship to logo design, and considering all of mysticism behind the theory of colour, its no surprise.  With the sheer volume of articles telling you that green means "this" and orange means "that" or the classic "never use more than 2-3 colours", you can see how overcomplicating colour can become difficult but oversimplifying it can be even more problematic "I'm choosing pink, yellow, brown and purple because...." blah!
+There seems to be a lot of confusion around the idea of colours in relationship to logo design, and considering all of mysticism behind the theory of colour, its no surprise.  With the sheer volume of articles telling you that green means "this" and orange means "that" or the classic "never use more than 2-3 colours", you can see how over complicating colour can become difficult but oversimplifying it can be even more problematic "I'm choosing pink, yellow, brown and purple because...." blah!
 
 Yes, colours have meaning, but they are not necessarily bound to it. For example, the colour red being used for a law firm's logo is not going to have the same meaning as it would if it were to be used in a logo for a children's toy store and in some cases, you can use more than 2-3 colours...just look at Google.
 
@@ -33,7 +33,7 @@ When it comes to choosing colours for your logo design, try to find a balance be
 
 Shapes are one of the most important factors, not only for the sake of your logo, but they also play an essential role in our everyday life as well.  Our brains are literally hardwired to see shapes and memorize them.  Shape recognition is one of the most crucial milestones in a toddler's cognitive development and continues to hold its value throughout our adult life, as they help us sort and associate the correct items with the right shapes.
 
-Our subconscious mind responds differently to different shapes.  Circles, curves and jagged edges all imply something different and, understanding what they mean can make a huge difference when it comes to decided which shape to choose for your logo design.
+Our subconscious mind responds differently to different shapes.  Circles, curves and jagged edges all imply something different and, understanding what they mean can make a huge difference when it comes to deciding which shape to choose for your logo design.
 
 Take the Nike "swoosh", the combination of curves ending in a sharp point implies a sense of movement.
 
@@ -47,6 +47,6 @@ We often try and separate Fonts from Shapes, but if you actually think about it,
 
 ## The conclusion
 
-Your logo is face/identity of your business and brand, so when it comes to deciding on which shape or colour to choose, be thoughtful, and actually ask yourself the question "how do I want to be perceived?".  
+Your logo is the face and identity of your business and brand, so when it comes to deciding on which shape or colour to choose, be thoughtful, and actually ask yourself the question "how do I want to be perceived?".  
 
 Lastly and most importantly, enjoy the design process, choosing colours and shapes sparks joy and creativity in all of us, so it is best to follow your gut and stay true to who you are!
