@@ -25,32 +25,15 @@ const NavigationContainer = styled.div`
     text-decoration: none;
     font-weight: 900;
     position: relative;
+    transition: color 200ms;
   }
 
-  a:before {
-    border-radius: 10px;
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #ff0077;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-  }
-
-  a:hover::before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
+  a:hover {
+    color: grey;
   }
   li {
     padding-right: 30px;
+    width: 150px;
   }
   h3 {
     font-weight: 900;

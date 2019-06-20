@@ -69,8 +69,9 @@ const SeoPage = () => (
         <li>
           <strong>On-page Optimisation:</strong> We maximise on this area for
           you by not only implementing top-class SEO keywords throughout your
-          website but we also work with our <Link to="/">Web Development</Link>{" "}
-          team to ensure each page of your website loads blazing fast.
+          website but we also work with our{" "}
+          <Link to="/services/web-design-gold-coast">Web Development</Link> team
+          to ensure each page of your website loads blazing fast.
         </li>
       </ul>
       <h2>Quality content writers on the Gold Coast</h2>
