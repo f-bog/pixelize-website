@@ -9,10 +9,7 @@ const FormContainer = styled.form`
   display: block;
   margin: 0 auto;
   width: 80%;
-  label {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+
   label,
   span {
     display: block;
