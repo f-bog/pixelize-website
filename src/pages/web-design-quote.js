@@ -9,6 +9,10 @@ const FormContainer = styled.form`
   display: block;
   margin: 0 auto;
   width: 80%;
+  label {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   label,
   span {
     display: block;
@@ -36,9 +40,9 @@ const FormContainer = styled.form`
   textarea {
     font-size: 18px;
     min-width: 80%;
-
     padding: 10px;
   }
+
   .services {
     margin-top: 3px;
     min-width: 0px;
@@ -78,50 +82,7 @@ const QuotePage = () => (
       <a className="readmore" href="tel:0424933007">
         Call Now
       </a>
-      <h2>Before we get started</h2>
-      <p>Here is some basic information about how our process works.</p>
-      <h3>Step One: Fill out the form in the best detail you can</h3>
-      <p>
-        This will help us get a good idea of what you are after and understand
-        what services you require. Please take your time, and if you have any
-        questions, feel free to call us. This is also a good opportunity to talk
-        things over with your business partner/partners if you’re not a
-        one-man-band!
-      </p>
-      <p>Once you are done, hit the send button!</p>
-      <p>
-        With the information you have provided, we will go over all the
-        technical stuff! Such as market competition, keywords, technologies,
-        design, time estimates, etc.
-      </p>
 
-      <h3>Step Two: Making Contact</h3>
-      <p>
-        Once we have a good understanding of the services you require, we will
-        contact you by phone or email to get further details on the project!
-      </p>
-      <h3>Step Three: Receiving your quote and what to expect </h3>
-      <p>
-        After thorough research on your project, we will send you a quote via
-        email, which will be valid for two weeks. Once you approve your quote,
-        we send you an invoice for 50% of the total project cost. After payment
-        has been received…the fun begins!
-      </p>
-      <p>
-        During this time, we work closely with you by answering all your
-        questions and provide you with project updates and information.{" "}
-      </p>
-      <h3>Step Four: Your website with a bow on top</h3>
-      <p>
-        The last and most fun step, your completed website (cue applause)! Your
-        satisfaction means everything to us, so we won’t stop till we achieve
-        it.{" "}
-      </p>
-      <p>
-        Once your dream website has come to fruition, we will send you the final
-        invoice for the payment remainder and hand you your freshly crafted
-        website with a bow on top!
-      </p>
       <FormContainer
         method="POST"
         name="contact"
@@ -201,7 +162,7 @@ const QuotePage = () => (
             <br />
             <input
               name="LikedWebsites"
-              placeholder="www.example.com www.pixelize.com.au"
+              placeholder="www.pixelize.com.au"
               type="text"
             />
           </label>
@@ -211,10 +172,8 @@ const QuotePage = () => (
             Project budget:
             <br />
             <select id="budget" name="budget" required>
-              <option value="$1500-$2000">$1500-$2000</option>
-              <option value="$2000-$3000">$2000-$3000</option>
-              <option value="$3000-$4000">$3000-$4000</option>
-              <option value="$4000">$4000+</option>
+              <option value="Under $1500">Under $1500</option>
+              <option value="Over $1500">Over $1500</option>
             </select>
           </label>
         </p>
@@ -223,12 +182,6 @@ const QuotePage = () => (
           <label htmlFor="description">
             What does your business do?:
             <textarea id="description" name="description" />
-          </label>
-        </p>
-        <p>
-          <label htmlFor="idealcustomer">
-            Describe your ideal website visitor:
-            <textarea id="idealcustomer" name="idealcustomer" />
           </label>
         </p>
 
