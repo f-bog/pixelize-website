@@ -8,7 +8,7 @@ import TextContainer from "../components/Containers/TextContainer"
 import NavigationWidget from "../components/Navigation/NavigationWidget"
 const BlogPage = () => (
   <Layout>
-    <SEO title="Web Design & Marketing Blog" />
+    <SEO title="Web Design Blog" />
     <TextContainer>
       <BlogIllustration />
       <h1>The Bookshelf</h1>

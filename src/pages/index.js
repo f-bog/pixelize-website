@@ -129,7 +129,7 @@ class IndexPage extends Component {
     return (
       <Layout>
         <SEO
-          title="Web Design Gold Coast"
+          title="Web Design and SEO"
           keywords={[
             `gold coast`,
             `gold coast web design`,
