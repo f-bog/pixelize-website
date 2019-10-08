@@ -14,7 +14,7 @@ import NavigationWidget from "../components/Navigation/NavigationWidget"
 const ServicePage = () => (
   <Layout>
     <SEO
-      title="Services"
+      title="Web Design Services"
       description="We transform your vision by using the latest cutting edge technologies in web development in correlation with unique and stunning designs. Our SEO specialist consults with you to further understand your business along with market research to produce quality organic traffic to your website."
     />
 
