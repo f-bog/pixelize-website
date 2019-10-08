@@ -157,6 +157,9 @@ class IndexPage extends Component {
             </p>
             <Link to="/portfolio">Our Portfolio</Link>
             <Link to="/web-design-quote">Get a Quote</Link>
+            <a style={{ marginTop: "20px" }} href="tel:0424933007">
+              &#9990; 0424-933-007
+            </a>
           </div>
 
           {/* <p>
