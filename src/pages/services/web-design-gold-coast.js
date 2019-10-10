@@ -12,7 +12,7 @@ const WebPage = () => (
   <Layout>
     <SEO
       title="Gold Coast Web Design"
-      description="Our in-house team of Gold Coast web designers and web developers mix their knowledge of beautiful user-friendly designs, technical abilities along with a splash of creative juice to hand-craft you a website that will captivate your audience through blazing fast load times and a stunning visual experience."
+      description="We create unique, blazing fast, responsive websites that are custom designed to perform and capture your audience."
     />
 
     <TextContainer>

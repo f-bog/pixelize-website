@@ -68,7 +68,10 @@ const FormContainer = styled.form`
 
 const QuotePage = () => (
   <Layout>
-    <SEO title="Web Design Quotes" />
+    <SEO
+      title="Web Design Quotes"
+      description="Looking to upgrade or create a new website? Contact us today to chat with a professional Gold Coast website specialist."
+    />
     <TextContainer>
       <QuoteIllustration />
       <h1>Get A Free Web Design Quote</h1>

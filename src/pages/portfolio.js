@@ -99,7 +99,10 @@ class PortfolioPage extends Component {
     }
     return (
       <Layout>
-        <SEO title="Web Design Portfolio" />
+        <SEO
+          title="Web Design Portfolio"
+          description="Our skills in web design are mighty fine, so have a look at our latest projects!"
+        />
         <TextContainer>
           <PortfolioIllustration />
 

@@ -130,6 +130,7 @@ class IndexPage extends Component {
       <Layout>
         <SEO
           title="Web Design and SEO"
+          description="Beautifully handcrafted websites made just for you! Our Gold Coast web designers create fast, custom-designed websites with a laser-focus on SEO."
           keywords={[
             `gold coast`,
             `gold coast web design`,

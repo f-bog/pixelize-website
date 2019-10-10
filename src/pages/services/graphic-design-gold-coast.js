@@ -9,7 +9,7 @@ const DesignPage = () => (
   <Layout>
     <SEO
       title="Graphic Design & Branding"
-      description="A brand isn’t just a logo and a website. It is the visual voice and persona of who and what your business is, so we think it should have some flair."
+      description="With a splash of creative juice and some TLC, we create one of a kind graphic designs for all your digital needs!"
     />
 
     <TextContainer>
