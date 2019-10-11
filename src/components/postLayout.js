@@ -11,7 +11,10 @@ export default class postLayout extends Component {
     const { markdownRemark } = this.props.data
     return (
       <Layout>
-        <SEO title={markdownRemark.frontmatter.title} />
+        <SEO
+          title={markdownRemark.frontmatter.title}
+          description={markdownRemark.excerpt}
+        />
         <TextContainer>
           <Img
             alt={markdownRemark.frontmatter.alt}
@@ -34,6 +37,7 @@ export const query = graphql`
   query PostQuery($slug: String!) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
+      excerpt
       frontmatter {
         thumbnail {
           childImageSharp {
