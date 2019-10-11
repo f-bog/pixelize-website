@@ -17,7 +17,7 @@ const WhyPixelize = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "pixelize-why.png" }) {
+        placeholderImage: file(relativePath: { eq: "website-love.png" }) {
           childImageSharp {
             fixed(width: 260, quality: 100) {
               ...GatsbyImageSharpFixed_tracedSVG
@@ -28,10 +28,9 @@ const WhyPixelize = () => (
     `}
     render={data => (
       <Img
-        className="websitepoodle"
         fixed={data.placeholderImage.childImageSharp.fixed}
         style={{ display: "block", margin: "20px auto" }}
-        alt="Pixelize mascot with a question mark  (for why choose pixelize)"
+        alt="Floating website with a heart"
       />
     )}
   />

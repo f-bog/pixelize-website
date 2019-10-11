@@ -39,7 +39,7 @@ const StyledContainer = styled.div`
 
 const Items = styled.div`
   display: flex;
-  align-content: center;
+
   max-width: 1060px;
   margin: 0 auto;
   justify-content: space-around;
@@ -53,17 +53,6 @@ const WhiteContainer = props => (
   <StyledContainer>
     <h2>{props.heading}</h2>
 
-    {/* <p>
-      Getting customers to click on your website is an area our professional SEO
-      team is committed to accomplishing for you but.. it doesn’t just end
-      there.
-    </p>{" "}
-    <p>
-      As we all know, you only get one chance to make a first impression, so
-      while having an SEO friendly website is essential, it is also equally as
-      important to present a beautiful, functional and responsive website that
-      reflects who YOU are and the services you provide.
-    </p> */}
     {props.description ? props.description : null}
     <Items>{props.children}</Items>
   </StyledContainer>

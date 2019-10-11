@@ -96,27 +96,36 @@ const ServiceCard = styled.div`
     }
   }
 `
+const Floater = styled.div`
+  display: block;
+  text-align: center;
 
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-30px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+  animation: float 5s linear infinite;
+`
 const WhyCard = styled.div`
   max-width: 500px;
   text-align: left;
-  margin: 0 auto;
-  background: #00aeff;
-  color: white;
-  padding: 25px;
-  border-radius: 10px;
+  color: black;
+
   a {
-    color: white;
+    color: black;
   }
 
   ul li {
     margin-bottom: 10px;
   }
-  ul {
-    display: flex;
-    list-style-type: none;
-    flex-direction: column;
-  }
+
   @media only screen and (min-width: 797px) {
     ul {
       flex-direction: row;
@@ -261,8 +270,10 @@ class IndexPage extends Component {
             </Link>
           </ServiceCard>
         </WhiteContainer>
-        <WhiteContainer heading="Why should you use Pixelize?">
-          <WhyPixelize />
+        <WhiteContainer heading="Web designs you will love">
+          <Floater>
+            <WhyPixelize />
+          </Floater>
 
           <WhyCard>
             <p>
@@ -280,16 +291,16 @@ class IndexPage extends Component {
             </p>
             <ul>
               <li>
-                <Link to="/web-design-quote">Get A Quote</Link>
+                <Link to="/web-design-quote">Web Design Quote</Link>
               </li>
               <li>
                 <Link to="/services">Our Services</Link>
               </li>
               <li>
-                <Link to="/portfolio">Our Portfolio</Link>
+                <Link to="/portfolio">Design Portfolio</Link>
               </li>
               <li>
-                <Link to="/about">About Us</Link>
+                <Link to="/about">Our story</Link>
               </li>
             </ul>
           </WhyCard>
