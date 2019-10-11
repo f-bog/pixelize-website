@@ -2,7 +2,8 @@ import React, { Component } from "react"
 
 class WordChanger extends Component {
   state = {
-    words: ["Brands", "Logos", "Websites "],
+    words: ["brands", "logos", "websites"],
+    service: "websites",
   }
 
   changeWord = () => {
