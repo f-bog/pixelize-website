@@ -33,7 +33,6 @@ const HomeHero = styled.div`
   span {
     font-weight: 900;
     color: #9400ff;
-    position: absolute;
   }
   a {
     display: inline-block;

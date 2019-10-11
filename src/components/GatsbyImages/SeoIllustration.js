@@ -19,7 +19,7 @@ const SeoIllustration = () => (
       query {
         placeholderImage: file(relativePath: { eq: "seoillustration.png" }) {
           childImageSharp {
-            fluid(maxWidth: 1250, quality: 50) {
+            fluid(maxWidth: 700, quality: 100) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }

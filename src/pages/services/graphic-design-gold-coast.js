@@ -14,7 +14,7 @@ const DesignPage = () => (
 
     <TextContainer>
       <DesignIllustration />
-      <h1>Print & Graphic Design</h1>
+      <h1>Graphic Design</h1>
       <WebsiteDinoPoodle />
       <p>
         From the digital world to the physical world, our Gold Coast graphic
@@ -59,32 +59,12 @@ const DesignPage = () => (
           <strong>Digital Letter Heads</strong>
         </li>
       </ul>
-      <h2>Print Design</h2>
-      <p>
-        Beautiful print designs on items such as business cards or brochures
-        have maintained their significance even in today’s digital world. They
-        help you establish a warm and personable relationship with your clients
-        by providing a “touchable” connection to your business.
-      </p>
+
       <p>
         Our team of local Gold Coast graphic designers will create you a clean
         and timeless design that will help further establish your brand and
         connect you to more potential clients.
       </p>
-      <ul>
-        <li>
-          <strong>Business Card Design</strong>
-        </li>
-        <li>
-          <strong>Booklet & Brochure Design</strong>
-        </li>
-        <li>
-          <strong>Flyer Design</strong>
-        </li>
-        <li>
-          <strong>Invoice template design</strong>
-        </li>
-      </ul>
       <NavigationWidget
         title1="More Services"
         title2="Get a Quote"

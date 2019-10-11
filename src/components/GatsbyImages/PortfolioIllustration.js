@@ -21,7 +21,7 @@ const PortfolioIllustration = () => (
           relativePath: { eq: "portfolioillustration.png" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 1250, quality: 50) {
+            fluid(maxWidth: 900, quality: 50) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }

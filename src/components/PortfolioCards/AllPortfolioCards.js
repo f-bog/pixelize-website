@@ -19,7 +19,7 @@ const ALL_PORTFOLIO_CARD_QUERY = graphql`
             alt
             thumbnail {
               childImageSharp {
-                fluid(maxHeight: 900, quality: 100) {
+                fluid(maxHeight: 500, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }

@@ -21,7 +21,7 @@ const DesignIllustration = () => (
           relativePath: { eq: "developmentillustration.png" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 1250, quality: 50) {
+            fluid(maxWidth: 900, quality: 50) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }

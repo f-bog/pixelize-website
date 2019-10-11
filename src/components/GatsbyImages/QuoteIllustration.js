@@ -21,7 +21,7 @@ const QuoteIllustration = () => (
           relativePath: { eq: "get-quote-illustration.png" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 1250, quality: 100) {
+            fluid(maxWidth: 800, quality: 100) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }

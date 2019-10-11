@@ -1,11 +1,8 @@
 import React, { Component } from "react"
-import { Spring } from "react-spring/renderprops"
 
 class WordChanger extends Component {
   state = {
-    words: [" Brands ", " Logos ", " Websites "],
-    service: " Loading ",
-    pulse: false,
+    words: ["Brands", "Logos", "Websites "],
   }
 
   changeWord = () => {
@@ -15,7 +12,6 @@ class WordChanger extends Component {
 
       this.setState(state => ({
         service: currentService,
-        pulse: !state.pulse,
       }))
       i++
       if (i >= this.state.words.length) {
@@ -32,15 +28,7 @@ class WordChanger extends Component {
   }
 
   render() {
-    return (
-      <Spring
-        // from={{ opacity: this.state.pulse ? 0 : 1 }}
-        to={{ fontSize: this.state.pulse ? 27 : 0 }}
-        onRest={() => this.setState(state => ({ pulse: !state.pulse }))}
-      >
-        {styles => <span style={{ ...styles }}>{this.state.service}</span>}
-      </Spring>
-    )
+    return <span>{this.state.service}</span>
   }
 }
 export default WordChanger

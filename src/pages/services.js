@@ -37,7 +37,7 @@ const ServicePage = () => (
         keyboard”, we will create you a fast, excellent website on time.
       </p>
       <Accordion
-        title="Graphic Design & Print"
+        title="Graphic Design"
         image={<Image />}
         link="graphic-design-gold-coast"
       >
