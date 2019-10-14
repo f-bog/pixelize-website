@@ -118,12 +118,13 @@ const WhyCard = styled.div`
   text-align: left;
   color: black;
 
-  a {
-    color: black;
+  a:hover {
+    color: #ff63b4;
   }
 
   ul li {
     margin-bottom: 10px;
+    color: #ff63b4;
   }
 
   @media only screen and (min-width: 797px) {
@@ -164,56 +165,57 @@ class IndexPage extends Component {
               <br />
               one pixel at a time.
             </p>
-            <Link to="/portfolio">Our Portfolio</Link>
-            <Link to="/web-design-quote">Get a Quote</Link>
+            <Link to="/portfolio/">Our Portfolio</Link>
+            <Link to="/web-design-quote/">Get a Quote</Link>
             <a style={{ marginTop: "20px" }} href="tel:0424933007">
               &#9990; 0424-933-007
             </a>
           </div>
-
-          {/* <p>
-            Building <WordChanger />
-            <br />
-            one <span>pixel</span> at a time
-          </p> */}
-          {/* <div className="cta-buttons">
-            <Link to="/">Get a Quote</Link>
-            <Link to="/">Contact us</Link>
-          </div> */}
         </HomeHero>
         <GreyContainer>
           <h2>Where Code Becomes Art</h2>
           <p>
             Starting out in my two car garage, sitting on plastic lawn chairs
             and eating mangos… <strong>Pixelize</strong> was born!
-          </p>{" "}
-          <p>
-            Comprised of local <strong>Gold Coast</strong> professional web
-            designers, web developers, and content creators, we aren’t your
-            typical creative agency, we understand the code behind websites and
-            how to build them from the ground up.
           </p>
           <p>
-            Together, using our love for art, code and content creation, we
-            treat your business as if it were our own, ensuring all areas, from
-            branding, SEO and web design are handled with tender love and care.
+            Comprised of a small in-house team of <strong>Gold Coast</strong>{" "}
+            web designers, web developers and copywriters, we aren’t your
+            typical creative web design agency. We actually understand the code
+            behind websites and how to build them from the ground up. Giving us
+            the freedom and ability to create and develop one-of-a-kind websites
+            with custom functionality.
+          </p>
+          <p>
+            Together, using our love for art and code, we treat your business as
+            if it were our own. From creative web designs and development to
+            copywriting and SEO, we handle all your projects with tender love
+            and care.
           </p>
           <p>
             Provide us with your vision and we will <strong>Pixelize</strong> it
             into digital life!
           </p>
-          <Link to="/about">About Us</Link>
+          <Link to="/about/">About Us</Link>
         </GreyContainer>
         <WhiteContainer
           heading="Services"
           description={
             <>
               <p>
-                Our team of Gold Coast web designers and SEO/content creators
-                channel their creative energy to create <strong>you</strong> and
-                your
-                <strong> visitors </strong>
-                with a <strong>magnificent</strong> first impression.
+                The best websites are the ones that allow your visitors to guide
+                seamlessly throughout your website, with no unnecessary delays.
+                They are designed with easy-to-use navigation while offering a
+                unique user experience. This type of design enables you to click
+                around effortlessly and enjoy.{" "}
+              </p>
+              <p>
+                Our Gold Coast team understands the foundation of great websites
+                and the techniques behind them.
+                <br />
+                From creative web design, development, graphic design and
+                content creation, we craft a dynamic and unique experience for
+                both you and your website visitor.
               </p>
               <Link to="/services/">Our Services</Link>
             </>
@@ -222,7 +224,7 @@ class IndexPage extends Component {
           <ServiceCard>
             {/* <img src={DesignIcon} width="100px" /> */}
             <div>
-              <Link to="/services/graphic-design-gold-coast">
+              <Link to="/services/graphic-design-gold-coast/">
                 <Image />
               </Link>
               <h3>Graphic Design</h3>
@@ -232,13 +234,16 @@ class IndexPage extends Component {
                 just for you.
               </p>
             </div>
-            <Link className="readmore" to="/services/graphic-design-gold-coast">
+            <Link
+              className="readmore"
+              to="/services/graphic-design-gold-coast/"
+            >
               Read More
             </Link>
           </ServiceCard>
           <ServiceCard>
             <div>
-              <Link to="/services/web-design-gold-coast">
+              <Link to="/services/web-design-gold-coast/">
                 <DevImg />
               </Link>
               <h3>Web Development</h3>
@@ -249,13 +254,13 @@ class IndexPage extends Component {
               </p>
             </div>
 
-            <Link className="readmore" to="/services/web-design-gold-coast">
+            <Link className="readmore" to="/services/web-design-gold-coast/">
               Read More
             </Link>
           </ServiceCard>
           <ServiceCard>
             <div>
-              <Link to="/services/seo-gold-coast">
+              <Link to="/services/seo-gold-coast/">
                 <SeoImg />
               </Link>
               <h3>SEO & Content</h3>
@@ -265,7 +270,7 @@ class IndexPage extends Component {
                 solutions made just for your business.
               </p>
             </div>
-            <Link className="readmore" to="/services/seo-gold-coast">
+            <Link className="readmore" to="/services/seo-gold-coast/">
               Read More
             </Link>
           </ServiceCard>
@@ -291,16 +296,16 @@ class IndexPage extends Component {
             </p>
             <ul>
               <li>
-                <Link to="/web-design-quote">Web Design Quote</Link>
+                <Link to="/web-design-quote/">Web Design Quote</Link>
               </li>
               <li>
-                <Link to="/services">Our Services</Link>
+                <Link to="/services/">Our Services</Link>
               </li>
               <li>
-                <Link to="/portfolio">Design Portfolio</Link>
+                <Link to="/portfolio/">Design Portfolio</Link>
               </li>
               <li>
-                <Link to="/about">Our story</Link>
+                <Link to="/about/">Our story</Link>
               </li>
             </ul>
           </WhyCard>

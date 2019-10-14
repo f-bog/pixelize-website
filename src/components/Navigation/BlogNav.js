@@ -100,13 +100,13 @@ const BlogNav = () => (
         render={({ allMarkdownRemark }) =>
           allMarkdownRemark.edges.map(edge => (
             <li key={edge.node.frontmatter.slug}>
-              <Link to={`/posts${edge.node.frontmatter.slug}`}>
+              <Link to={`/posts${edge.node.frontmatter.slug}/`}>
                 <Img
                   style={{ width: "150px" }}
                   fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid}
                 />
               </Link>
-              <Link to={`/posts${edge.node.frontmatter.slug}`}>
+              <Link to={`/posts${edge.node.frontmatter.slug}/`}>
                 {edge.node.frontmatter.title}
               </Link>
               <span>{edge.node.frontmatter.date}</span>
@@ -115,7 +115,7 @@ const BlogNav = () => (
         }
       />
     </ul>
-    <Link to="/blog" className="readmore">
+    <Link to="/blog/" className="readmore">
       See more posts
     </Link>
   </NavigationContainer>

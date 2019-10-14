@@ -112,30 +112,32 @@ const NavigationLinks = () => (
         <Link to="/services/">Services</Link>
         <ul>
           <li>
-            <Link to="/services/graphic-design-gold-coast">Graphic Design</Link>
+            <Link to="/services/graphic-design-gold-coast/">
+              Graphic Design
+            </Link>
           </li>
           <li>
-            <Link to="/services/web-design-gold-coast">
+            <Link to="/services/web-design-gold-coast/">
               Web Design & Development
             </Link>
           </li>
           <li>
-            <Link to="/services/seo-gold-coast">SEO & Content</Link>
+            <Link to="/services/seo-gold-coast/">SEO & Content</Link>
           </li>
         </ul>
       </li>
       <li>
-        <Link to="/portfolio">Portfolio</Link>
+        <Link to="/portfolio/">Portfolio</Link>
       </li>
       <li>
-        <Link to="/about">About</Link>
+        <Link to="/about/">About</Link>
       </li>
       <li>
         <Link to="/blog/">Bookshelf</Link>
       </li>
 
       <li>
-        <Link to="/web-design-quote">Get a Quote</Link>
+        <Link to="/web-design-quote/">Get a Quote</Link>
       </li>
     </ul>
   </Navigation>

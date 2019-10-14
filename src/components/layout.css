@@ -32,18 +32,6 @@ h2 {
   color: rgb(255, 255, 255);
 }
 
-.slick-track {
-  width: 80%;
-}
-
-.slick-slide {
-  text-align: center;
-}
-.slick-slider {
-  margin: 0 auto;
-  max-width: 1060px;
-}
-
 .websitepoodle {
   display: block;
   margin: 0 auto;

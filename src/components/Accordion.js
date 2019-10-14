@@ -153,7 +153,7 @@ class Accordion extends Component {
             <animated.div className="content" style={props}>
               {/* <p>{this.props.content}</p> */}
               {this.props.children}
-              <Link to={`/services/${this.props.link}`}>Read More</Link>
+              <Link to={`/services/${this.props.link}/`}>Read More</Link>
             </animated.div>
           )}
         </Spring>

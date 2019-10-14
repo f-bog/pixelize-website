@@ -66,10 +66,10 @@ const Archive = ({ children }) => (
         <h2 style={{ textAlign: "Center" }}>Posts</h2>
         {allMarkdownRemark.edges.map(edge => (
           <PostCard key={edge.node.frontmatter.slug}>
-            <Link className="title" to={`/posts${edge.node.frontmatter.slug}`}>
+            <Link className="title" to={`/posts${edge.node.frontmatter.slug}/`}>
               <h3>{edge.node.frontmatter.title} &rarr;</h3>
             </Link>
-            <Link to={`/posts${edge.node.frontmatter.slug}`}>
+            <Link to={`/posts${edge.node.frontmatter.slug}/`}>
               <Img
                 alt={edge.node.frontmatter.alt}
                 fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid}

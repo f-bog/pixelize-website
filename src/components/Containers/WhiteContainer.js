@@ -39,7 +39,7 @@ const StyledContainer = styled.div`
 
 const Items = styled.div`
   display: flex;
-
+  align-content: center;
   max-width: 1060px;
   margin: 0 auto;
   justify-content: space-around;
