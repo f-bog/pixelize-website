@@ -10,7 +10,7 @@ const BlogPage = () => (
   <Layout>
     <SEO
       title="Web Design Blog"
-      description="Enjoy a good read? Check out our blog for all things design, digital and web related."
+      description="Enjoy a good read? click here to check out our blog for everything graphic design, web design, and digital related."
     />
     <TextContainer>
       <BlogIllustration />

@@ -101,7 +101,7 @@ class PortfolioPage extends Component {
       <Layout>
         <SEO
           title="Web Design Portfolio"
-          description="Our skills in web design are mighty fine, so have a look at our latest projects!"
+          description="Our skills in graphic and web design are mighty fine, so click here to have a look at our latest projects!"
         />
         <TextContainer>
           <PortfolioIllustration />
