@@ -31,12 +31,12 @@ const WidgetContainer = styled.div`
 const NavigationWidget = props => (
   <WidgetContainer>
     {props.title1 ? (
-      <Link className="readmore" to={`/${props.link1}`}>
+      <Link className="readmore" to={`/${props.link1}/`}>
         {props.title1}
       </Link>
     ) : null}
     {props.title2 ? (
-      <Link className="readmore" to={`/${props.link2}`}>
+      <Link className="readmore" to={`/${props.link2}/`}>
         {props.title2}
       </Link>
     ) : null}
