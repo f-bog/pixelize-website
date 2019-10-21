@@ -2,6 +2,12 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import FooterEmblem from "../components/FooterEmblem"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faFacebook,
+  faDribbble,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons"
 const FooterWrapper = styled.footer`
   display: flex;
   flex-direction: column;
@@ -74,6 +80,22 @@ const FooterMenu = styled.ul`
   }
 `
 
+const SocialIcons = styled.div`
+  display: flex;
+  justify-content: center;
+  a {
+    color: white;
+    margin: 0 20px 20px 20px;
+    font-size: 30px;
+    transition: all 0.5s;
+  }
+
+  a:hover {
+    color: #b862f9;
+    transform: scale(1.5);
+  }
+`
+
 const Footer = () => (
   <FooterWrapper>
     <FooterContainer>
@@ -99,6 +121,26 @@ const Footer = () => (
           <Link to="/web-design-quote/">Get a Quote</Link>
         </li>
       </FooterMenu>
+      <SocialIcons>
+        <a
+          href="https://www.facebook.com/pixelizeweb"
+          rel="noopener noreferrer nofollow"
+        >
+          <FontAwesomeIcon icon={faFacebook} />
+        </a>
+        <a
+          href="https://dribbble.com/Pixelizeweb"
+          rel="noopener noreferrer nofollow"
+        >
+          <FontAwesomeIcon icon={faDribbble} />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/pixelizeweb/"
+          rel="noopener noreferrer nofollow"
+        >
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+      </SocialIcons>
     </FooterContainer>
     <div
       style={{ textAlign: "center", fontSize: "14px", marginBottom: "20px" }}
