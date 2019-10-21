@@ -106,38 +106,67 @@ const NavigationLinks = () => (
   <Navigation>
     <ul>
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/" activeStyle={{ color: "#ff63b4" }}>
+          Home
+        </Link>
       </li>
       <li>
-        <Link to="/services/">Services</Link>
+        <Link to="/services/" activeStyle={{ color: "#ff63b4" }}>
+          Services
+        </Link>
         <ul>
           <li>
-            <Link to="/services/graphic-design-gold-coast/">
+            <Link
+              to="/services/graphic-design-gold-coast/"
+              activeStyle={{
+                color: "#ff63b4",
+              }}
+            >
               Graphic Design
             </Link>
           </li>
           <li>
-            <Link to="/services/web-design-gold-coast/">
+            <Link
+              to="/services/web-design-gold-coast/"
+              activeStyle={{
+                color: "#ff63b4",
+              }}
+            >
               Web Design & Development
             </Link>
           </li>
           <li>
-            <Link to="/services/seo-gold-coast/">SEO & Content</Link>
+            <Link
+              to="/services/seo-gold-coast/"
+              activeStyle={{
+                color: "#ff63b4",
+              }}
+            >
+              SEO & Content
+            </Link>
           </li>
         </ul>
       </li>
       <li>
-        <Link to="/portfolio/">Portfolio</Link>
+        <Link to="/portfolio/" activeStyle={{ color: "#ff63b4" }}>
+          Portfolio
+        </Link>
       </li>
       <li>
-        <Link to="/about/">About</Link>
+        <Link to="/about/" activeStyle={{ color: "#ff63b4" }}>
+          About
+        </Link>
       </li>
       <li>
-        <Link to="/blog/">Bookshelf</Link>
+        <Link to="/blog/" activeStyle={{ color: "#ff63b4" }}>
+          Bookshelf
+        </Link>
       </li>
 
       <li>
-        <Link to="/web-design-quote/">Get a Quote</Link>
+        <Link to="/web-design-quote/" activeStyle={{ color: "#ff63b4" }}>
+          Get a Quote
+        </Link>
       </li>
     </ul>
   </Navigation>
