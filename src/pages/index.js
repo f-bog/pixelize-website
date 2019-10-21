@@ -21,7 +21,6 @@ const HomeHero = styled.div`
   flex-direction: column;
   margin-bottom: 50px;
   h1 {
-    width: 100%;
   }
   p {
     width: 220px;
@@ -155,11 +154,10 @@ class IndexPage extends Component {
           <Herosvg />
           <div className="introContainer">
             <h1>
-              Web Design & Development
-              <br />
+              Creative Web Design <br />
               Gold Coast
             </h1>
-            <div />
+
             <p>
               Building <WordChanger />
               <br />
