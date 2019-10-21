@@ -60,8 +60,9 @@ const WebPage = () => (
         and potatoes” of your website and our Gold Coast web developers offer
         you a couple different options!
       </p>
-      <WordPressIllustration />
       <h3>WordPress Development</h3>
+      <WordPressIllustration />
+
       <p>
         With nearly 35% of all websites being powered through WordPress, it goes
         without saying, they have been around for a long time.
@@ -85,8 +86,8 @@ const WebPage = () => (
         which means, we find the best solutions to make your visitor’s
         experience on your website seamless and enjoyable.
       </p>
-      <GatsbyIllustration />
       <h3>Serverless Websites (Gatsby.js)</h3>
+      <GatsbyIllustration />
 
       <p>
         There is tremendous value in the speed of your website, not only due to
