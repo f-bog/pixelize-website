@@ -142,10 +142,13 @@ const Footer = () => (
         </a>
       </SocialIcons>
     </FooterContainer>
+
     <div
       style={{ textAlign: "center", fontSize: "14px", marginBottom: "20px" }}
     >
-      © Copyright {new Date().getFullYear()} · Pixelize · All Rights Reserved
+      <p>
+        © Copyright {new Date().getFullYear()} · Pixelize · All Rights Reserved
+      </p>
     </div>
   </FooterWrapper>
 )
