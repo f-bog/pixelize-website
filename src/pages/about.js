@@ -12,31 +12,33 @@ const AboutPage = () => (
     <TextContainer>
       <h1>The Origin Story</h1>
       <p>
-        Our millennial love for all things digital and internet-based has been a
-        staple in our lives, always appearing in the form of fun little side
-        projects for friends and family but due to the demanding, fast-paced
-        lifestyle of good ol’ Los Angeles, California and the need to put food
-        on the table, we put our dream of starting our own Digital Agency on
-        hold.
+        Coming from a family who has started many successful small businesses
+        throughout the years, in different countries. We learned first hand, the
+        important role having a good website plays and how critical it can be to
+        the success of your business.
       </p>
       <p>
-        Throughout the following years, we watched our family members create
-        many successful small businesses, only to then, many years later, leave
-        it all behind and move to their new home on the beautiful Gold Coast,
-        Australia and start building their businesses from the ground up…once
-        again. While we carefully observed the mindset and determination it took
-        to start a new business in a new country, we learned the important role
-        that having a good website plays, and how critical it can be to the
-        success of your business, and this sparked a fuse! With our technical
-        knowledge, creative ability along with some hands-on experience (and a
-        couple years later) Pixelize was born!
+        Not to mention how vital it is to hire a webmaster who can provide you
+        with the technical skills and honest information that will benefit you
+        and not just themselves.
       </p>
       <p>
-        Since Pixelize’s beginning, we wanted it to be different. No gimmicky
-        sales tactics and most importantly, no trying to swindle you through
-        dishonest advice and misinformation. We have always believed the best
-        way we as a company can be truly successful, is if we treat each of our
-        client’s projects as if they were our own.
+        But ultimately, the web industry is full of people claiming to have
+        found a google secret that will get you ranked number one. We have
+        witnessed all of these claims with our families businesses. We
+        understand the dent it can make in your wallet, all while leaving you
+        confused and unsure as to what you actually signed up for.
+      </p>
+      <p>
+        Since Pixelize’s beginning, we wanted to be different. No gimmicky sales
+        tactics and most importantly, no trying to swindle you through dishonest
+        advice and misinformation. Since we only take on projects that we know
+        we can help by adding value through our services, we never over-promise
+        and under-deliver.
+      </p>
+      <p>
+        We believe the best way we as a company can be truly successful, is if
+        we treat each of our client’s projects as if they were our own.
       </p>
       <p>
         Quality work and honest customer service have always been the core of
