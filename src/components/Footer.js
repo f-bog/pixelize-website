@@ -4,19 +4,20 @@ import { Link } from "gatsby"
 import FooterEmblem from "../components/FooterEmblem"
 const FooterWrapper = styled.footer`
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   background: black;
   color: white;
-  width: 100%;
-  min-height: 300px;
+  min-height: 250px;
 `
 
 const FooterContainer = styled.div`
-  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
-  max-width: 1060px;
   margin: 0px auto;
-
   span {
     font-weight: 900;
     font-family: "Raleway", sans-serif;
@@ -34,11 +35,12 @@ const FooterMenu = styled.ul`
   @media only screen and (min-width: 797px) {
     flex-direction: row;
     li {
-      margin: 15px;
+      margin: 25px;
     }
   }
   li {
-    margin-bottom: 15px;
+    text-align: center;
+    margin-bottom: 25px;
   }
   a {
     padding: 3px;
@@ -75,35 +77,34 @@ const FooterMenu = styled.ul`
 const Footer = () => (
   <FooterWrapper>
     <FooterContainer>
-      <div>
-        <FooterEmblem />
-        <FooterMenu>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/services/">Services</Link>
-          </li>
-          <li>
-            <Link to="/portfolio/">Portfolio</Link>
-          </li>
-          <li>
-            <Link to="/about/">About</Link>
-          </li>
-          <li>
-            <Link to="/blog/">Blog</Link>
-          </li>
+      <FooterEmblem />
+      <FooterMenu>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/services/">Services</Link>
+        </li>
+        <li>
+          <Link to="/portfolio/">Portfolio</Link>
+        </li>
+        <li>
+          <Link to="/about/">About</Link>
+        </li>
+        <li>
+          <Link to="/blog/">Blog</Link>
+        </li>
 
-          <li>
-            <Link to="/web-design-quote/">Get a Quote</Link>
-          </li>
-        </FooterMenu>
-      </div>
-
-      <div style={{ textAlign: "center", fontSize: "14px" }}>
-        © Copyright {new Date().getFullYear()} · Pixelize · All Rights Reserved
-      </div>
+        <li>
+          <Link to="/web-design-quote/">Get a Quote</Link>
+        </li>
+      </FooterMenu>
     </FooterContainer>
+    <div
+      style={{ textAlign: "center", fontSize: "14px", marginBottom: "20px" }}
+    >
+      © Copyright {new Date().getFullYear()} · Pixelize · All Rights Reserved
+    </div>
   </FooterWrapper>
 )
 
