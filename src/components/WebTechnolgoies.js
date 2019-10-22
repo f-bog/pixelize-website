@@ -27,13 +27,13 @@ const Container = styled.div`
   .netlify {
     animation: ${bounce2} 2s linear infinite alternate;
   }
-  .graphql {
+  .react {
     animation: ${bounce1} 2s linear infinite alternate;
   }
-  .gatsby {
+  .graphql {
     animation: ${bounce2} 2s linear infinite alternate;
   }
-  .react {
+  .gatsby {
     animation: ${bounce1} 2s linear infinite alternate;
   }
 `
