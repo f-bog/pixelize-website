@@ -8,21 +8,26 @@ import {
   faDribbble,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons"
+
 const FooterWrapper = styled.footer`
   display: flex;
   flex-direction: column;
+  width: 100%;
   align-items: center;
   justify-content: space-around;
   background: black;
   color: white;
   min-height: 250px;
+  p {
+    font-size: 14px;
+  }
 `
 
 const FooterContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
+  padding: 25px;
   margin: 0px auto;
   span {
     font-weight: 900;
