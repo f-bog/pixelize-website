@@ -41,22 +41,23 @@ const WebPage = () => (
       <p>
         How we navigate the internet has changed. Thanks to the technological
         revolution, we get to have incredible little supercomputers (aka
-        smartphones) in our pockets, purses and yes, even in our fanny packs,
-        but this means the web design game has changed as well.
+        smartphones) in our pockets, purses and yes, even in our fanny packs.
+        But this means the web design game has changed as well.
       </p>
 
       <p>
         With more and more people searching for services and products on their
         phones and tablets, the importance of having a beautiful responsive web
-        design has become a “must have”.
+        design has become a “must-have”.
       </p>
 
       <p>
-        From colour palettes and page layouts that are pleasing to the eye to
-        responsive web designs, our Gold Coast web designers create your visitor
-        an experience that seamlessly guides them through a smooth and enjoyable
-        journey that will make them want to stay longer and keep coming back for
-        more!
+        Our Gold Coast web designers take your visitor on a smooth and seamless
+        journey throughout your website. Through thoughtful page layouts, colour
+        choices and responsive design, our creative web designers engage your
+        audience by making it a personal experience. Because getting a visitor
+        on your page is nice, but captivating them to stay longer and keep
+        coming back for more, takes a unique design touch.
       </p>
 
       <h2>Web Development</h2>
