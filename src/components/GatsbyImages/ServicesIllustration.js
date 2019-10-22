@@ -21,7 +21,7 @@ const ServicesIllustration = () => (
           relativePath: { eq: "servicesillustration.png" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 700, quality: 70) {
+            fluid(maxWidth: 1060, quality: 90) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }

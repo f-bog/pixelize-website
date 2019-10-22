@@ -8,6 +8,7 @@ import Herosvg from "../components/Herosvg"
 import WordChanger from "../components/WordChanger"
 import GreyContainer from "../components/Containers/GreyContainer"
 import WhiteContainer from "../components/Containers/WhiteContainer"
+import WebTechnologies from "../components/WebTechnolgoies"
 
 // import Carousel from "../components/Carousel"
 
@@ -273,7 +274,23 @@ class IndexPage extends Component {
             </Link>
           </ServiceCard>
         </WhiteContainer>
-        <WhiteContainer heading="Web designs you will love">
+        <GreyContainer>
+          <h2>Modern Website Development</h2>
+          <p>
+            From leveraging modern architectures like the JAMstack for increased
+            performance, easier scaling, higher security, and cheaper hosting.
+            To creating WordPress websites with leaner code and enhanced
+            security. We develop an online experience that is unmatched in
+            speed, beauty and performance.
+          </p>
+          <WebTechnologies />
+          <p>
+            By being full-time learners, your website will never become stale or
+            outdated and will continue to stay on the cutting edge.
+          </p>
+          <Link to="/web-design-quote/">Get a website quote</Link>
+        </GreyContainer>
+        <WhiteContainer heading="Website Support">
           <Floater>
             <WhyPixelize />
           </Floater>

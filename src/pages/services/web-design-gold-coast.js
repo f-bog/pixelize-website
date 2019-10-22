@@ -19,19 +19,24 @@ const WebPage = () => (
       <DevelopmentIllustration />
       <h1>Gold Coast Web Design & Development</h1>
       <p>
-        With the human condition of ever shortening intention spans, we
-        understand the importance of captivating your audience within a couple
+        With the human condition of ever-shortening intention spans, we
+        understand the importance of captivating your audience within
         milliseconds.
       </p>
+
       <p>
-        Our in-house team of Gold Coast web designers and web developers mix
-        their knowledge of beautiful user-friendly designs, technical abilities
-        along with a splash of creative juice to hand-craft you a website that
-        will captivate your audience through blazing fast load times and a
-        stunning visual experience.
+        That is why our in-house team of Gold Coast web designers and web
+        developers focus their creative juice on speed, beauty and responsive
+        design. With these core principles in mind, we hand-craft you a website
+        that will captivate your audience through blazing fast load times and a
+        stunning visual experience
+      </p>
+      <p>
+        A website gets your business online, but a great website helps your
+        business achieve its goals and reach its full potential.
       </p>
 
-      <h2>Your Local Web Designers</h2>
+      <h2>Responsive Web Design</h2>
 
       <p>
         How we navigate the internet has changed. Thanks to the technological
