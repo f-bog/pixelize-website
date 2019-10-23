@@ -83,7 +83,7 @@ p {
     transition: transform 0.5s;
   }
   @media only screen and (min-width: 797px) {
-    width: 600px;
+    width: 800px;
     button >
     span  {
       flex-direction: row;
@@ -153,7 +153,9 @@ class Accordion extends Component {
             <animated.div className="content" style={props}>
               {/* <p>{this.props.content}</p> */}
               {this.props.children}
-              <Link to={`/services/${this.props.link}/`}>Read More</Link>
+              {this.props.link ? (
+                <Link to={`/services/${this.props.link}/`}>Read More</Link>
+              ) : null}
             </animated.div>
           )}
         </Spring>

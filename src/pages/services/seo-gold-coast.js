@@ -2,7 +2,15 @@ import React from "react"
 import SEO from "../../components/seo"
 import TextContainer from "../../components/Containers/TextContainer"
 import SeoIllustration from "../../components/GatsbyImages/SeoIllustration"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faList,
+  faSearchPlus,
+  faFileAlt,
+  faMousePointer,
+  faLink,
+} from "@fortawesome/free-solid-svg-icons"
+import Accordion from "../../components/Accordion"
 import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import NavigationWidget from "../../components/Navigation/NavigationWidget"
@@ -89,6 +97,91 @@ const SeoPage = () => (
         with you to understand and develop a consistent brand voice and persona
         that expresses who and what you are.
       </p>
+      {/* <Accordion
+        image={
+          <FontAwesomeIcon
+            style={{ fontSize: 40, color: "FF0077" }}
+            icon={faList}
+          />
+        }
+        title="Website Audit"
+      >
+        <p>
+          Whether your a multi-generational “mom and pop” shop who wants to
+          express your old school values or you’re a start-up business who wants
+          to convey modern-freshness, our Gold Coast content creators will work
+          with you to understand and develop a consistent brand voice and
+          persona that expresses who and what you are.
+        </p>
+      </Accordion>
+      <Accordion
+        title="Keyword Research"
+        image={
+          <FontAwesomeIcon
+            style={{ fontSize: 40, color: "#9400FF" }}
+            icon={faSearchPlus}
+          />
+        }
+      >
+        <p>
+          Whether your a multi-generational “mom and pop” shop who wants to
+          express your old school values or you’re a start-up business who wants
+          to convey modern-freshness, our Gold Coast content creators will work
+          with you to understand and develop a consistent brand voice and
+          persona that expresses who and what you are.
+        </p>
+      </Accordion>
+      <Accordion
+        image={
+          <FontAwesomeIcon
+            style={{ fontSize: 40, color: "#FF8900" }}
+            icon={faFileAlt}
+          />
+        }
+        title="On-Page SEO"
+      >
+        <p>
+          Whether your a multi-generational “mom and pop” shop who wants to
+          express your old school values or you’re a start-up business who wants
+          to convey modern-freshness, our Gold Coast content creators will work
+          with you to understand and develop a consistent brand voice and
+          persona that expresses who and what you are.
+        </p>
+      </Accordion>
+      <Accordion
+        image={
+          <FontAwesomeIcon
+            style={{ fontSize: 40, color: "#01aeff" }}
+            icon={faMousePointer}
+          />
+        }
+        title="Off-Page SEO"
+      >
+        <p>
+          Whether your a multi-generational “mom and pop” shop who wants to
+          express your old school values or you’re a start-up business who wants
+          to convey modern-freshness, our Gold Coast content creators will work
+          with you to understand and develop a consistent brand voice and
+          persona that expresses who and what you are.
+        </p>
+      </Accordion>
+      <Accordion
+        image={
+          <FontAwesomeIcon
+            style={{ fontSize: 40, color: "#00fdd9" }}
+            icon={faLink}
+          />
+        }
+        title="Link Cleaning"
+      >
+        <p>
+          Whether your a multi-generational “mom and pop” shop who wants to
+          express your old school values or you’re a start-up business who wants
+          to convey modern-freshness, our Gold Coast content creators will work
+          with you to understand and develop a consistent brand voice and
+          persona that expresses who and what you are.
+        </p>
+      </Accordion> */}
       <NavigationWidget
         title1="More Services"
         title2="Get a Quote"
