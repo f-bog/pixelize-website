@@ -114,6 +114,7 @@ const Floater = styled.div`
   animation: float 5s linear infinite;
 `
 const WhyCard = styled.div`
+  margin: 0 auto;
   max-width: 500px;
   text-align: left;
   color: black;

@@ -13,15 +13,13 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
-const DesignIllustration = () => (
+const FredImage = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(
-          relativePath: { eq: "developmentillustration.png" }
-        ) {
+        placeholderImage: file(relativePath: { eq: "fred.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 700, quality: 50) {
+            fluid(maxWidth: 200, quality: 100) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
@@ -30,11 +28,12 @@ const DesignIllustration = () => (
     `}
     render={data => (
       <Img
-        style={{ maxWidth: 700, margin: "0 auto" }}
+        style={{ maxWidth: 200, maxHeight: 200 }}
         fluid={data.placeholderImage.childImageSharp.fluid}
-        alt="illustration of pixelize mascot for web design and web development"
+        alt="Picture of Fred"
       />
     )}
   />
 )
-export default DesignIllustration
+
+export default FredImage

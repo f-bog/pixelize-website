@@ -6,7 +6,7 @@ import { Spring, animated } from "react-spring/renderprops"
 const AccordionContainer = styled.section`
 background-color: #f9f7f7;
   border-radius: 10px;
-  
+
   box-shadow: inset 0px 4px 10px -7px rgba(0,0,0,0.75);
   height: auto;
   margin: 20px auto ;
@@ -35,14 +35,17 @@ p {
     padding: 20px;
     cursor: pointer;
     border: none;
-    ${"" /* box-shadow: 0px 6px 10px -9px rgba(0,0,0,0.75); */}
+   
     width: 100%;
   }
 
   button:hover {
-    ${"" /* box-shadow: 0px 6px 10px -9px rgba(0,0,0,0.75) !important; */}
+    
     .gatsby-image-wrapper {
       transform: scale(1.1)
+    }
+    svg {
+      transform: scale(1.5)
     }
   }
   button >
@@ -75,26 +78,29 @@ p {
   }
   h3 {
     font-size: 20px;
-    margin: 5px;
+    ${"" /* margin: 5px; */}
     text-align: center;
   }
-  .gatsby-image-wrapper {
+  .gatsby-image-wrapper, svg {
     margin: 0 auto;
     transition: transform 0.5s;
   }
+  svg {
+    margin: 0 auto;
+  }
   @media only screen and (min-width: 797px) {
-    width: 800px;
+    max-width: 800px;
     button >
     span  {
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
     }
-    .gatsby-image-wrapper {
+    .gatsby-image-wrapper, svg {
       margin: 0;
     }
     h3 {
-      padding-left: 20px;
+      
       font-size: 24px;
       text-align: left;
       margin: 0;
@@ -116,6 +122,7 @@ class Accordion extends Component {
     return (
       <AccordionContainer>
         <button
+          // trigger toggleAccordion on click
           onClick={this.toggleAccordion}
           style={{
             boxShadow: this.state.show
@@ -126,7 +133,6 @@ class Accordion extends Component {
           <span>
             {this.props.image}
             <h3>{this.props.title}</h3>
-
             <span>
               <i
                 className="arrow down"
@@ -140,18 +146,14 @@ class Accordion extends Component {
           </span>
         </button>
         <Spring />
-        {/* <p>{this.props.content}</p> */}
+
         <Spring
-          // from={{
-          //   maxHeight: this.state.show ? 0 : 700,
-          // }}
           to={{
             maxHeight: this.state.show ? 700 : 0,
           }}
         >
           {props => (
             <animated.div className="content" style={props}>
-              {/* <p>{this.props.content}</p> */}
               {this.props.children}
               {this.props.link ? (
                 <Link to={`/services/${this.props.link}/`}>Read More</Link>

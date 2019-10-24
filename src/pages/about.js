@@ -2,7 +2,28 @@ import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import TextContainer from "../components/Containers/TextContainer"
+import styled from "styled-components"
+import FredImage from "../components/GatsbyImages/Fred"
+import SusannaImage from "../components/GatsbyImages/Susanna"
+const TeamContainer = styled.div`
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: space-around;
 
+  p {
+    font-weight: 900;
+    text-align: center;
+  }
+  ul li {
+    font-weight: 900;
+  }
+  .gatsby-image-wrapper {
+    margin: 0 auto;
+
+    background-color: pink;
+  }
+`
 const AboutPage = () => (
   <Layout>
     <SEO
@@ -10,6 +31,26 @@ const AboutPage = () => (
       description="We love what we do, and show it by creating beautifully made websites.  Provide us with your vision, and we will Pixelize it into digital life."
     />
     <TextContainer>
+      {/* <TeamContainer>
+        <div>
+          <FredImage />
+          <p>Frederick</p>
+          <ul>
+            <li>Web Developer</li>
+            <li>Graphic Designer</li>
+            <li>Web Designer</li>
+          </ul>
+        </div>
+        <div>
+          <SusannaImage />
+          <p>Susanna</p>
+          <ul>
+            <li>SEO Specialist</li>
+            <li>Copywriter</li>
+            <li>Web Designer</li>
+          </ul>
+        </div>
+      </TeamContainer> */}
       <h1>The Origin Story</h1>
       <p>
         Coming from a family who has started many successful small businesses

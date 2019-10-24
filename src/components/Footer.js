@@ -107,33 +107,33 @@ const Footer = () => (
       <FooterEmblem />
       <FooterMenu>
         <li>
-          <Link to="/" activeStyle={{ color: "#ff63b4" }}>
+          <Link to="/" activeStyle={{ color: "#00fdd9" }}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="/services/" activeStyle={{ color: "#ff63b4" }}>
+          <Link to="/services/" activeStyle={{ color: "#00fdd9" }}>
             Services
           </Link>
         </li>
         <li>
-          <Link to="/portfolio/" activeStyle={{ color: "#ff63b4" }}>
+          <Link to="/portfolio/" activeStyle={{ color: "#00fdd9" }}>
             Portfolio
           </Link>
         </li>
         <li>
-          <Link to="/about/" activeStyle={{ color: "#ff63b4" }}>
+          <Link to="/about/" activeStyle={{ color: "#00fdd9" }}>
             About
           </Link>
         </li>
         <li>
-          <Link to="/blog/" activeStyle={{ color: "#ff63b4" }}>
+          <Link to="/blog/" activeStyle={{ color: "#00fdd9" }}>
             Blog
           </Link>
         </li>
 
         <li>
-          <Link to="/web-design-quote/" activeStyle={{ color: "#ff63b4" }}>
+          <Link to="/web-design-quote/" activeStyle={{ color: "#00fdd9" }}>
             Get a Quote
           </Link>
         </li>
