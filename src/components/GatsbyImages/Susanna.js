@@ -17,10 +17,10 @@ const SusannaImage = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "susanna.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "susanna.png" }) {
           childImageSharp {
-            fluid(maxWidth: 200, quality: 100) {
-              ...GatsbyImageSharpFluid_tracedSVG
+            fixed(width: 250, quality: 100) {
+              ...GatsbyImageSharpFixed_tracedSVG
             }
           }
         }
@@ -28,8 +28,7 @@ const SusannaImage = () => (
     `}
     render={data => (
       <Img
-        style={{ maxWidth: 200, maxHeight: 200 }}
-        fluid={data.placeholderImage.childImageSharp.fluid}
+        fixed={data.placeholderImage.childImageSharp.fixed}
         alt="Picture of Susanna"
       />
     )}

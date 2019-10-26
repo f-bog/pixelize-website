@@ -12,7 +12,7 @@ import {
   faPencilAlt,
 } from "@fortawesome/free-solid-svg-icons"
 import Accordion from "../../components/Accordion"
-import { Link } from "gatsby"
+
 import Layout from "../../components/layout"
 import NavigationWidget from "../../components/Navigation/NavigationWidget"
 

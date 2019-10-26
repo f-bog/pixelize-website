@@ -5,12 +5,14 @@ import TextContainer from "../components/Containers/TextContainer"
 import styled from "styled-components"
 import FredImage from "../components/GatsbyImages/Fred"
 import SusannaImage from "../components/GatsbyImages/Susanna"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faPencilAlt, faCode } from "@fortawesome/free-solid-svg-icons"
 const TeamContainer = styled.div`
   display: flex;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   justify-content: space-around;
-
+  padding: 10px;
   p {
     font-weight: 900;
     text-align: center;
@@ -31,27 +33,31 @@ const AboutPage = () => (
       description="We love what we do, and show it by creating beautifully made websites.  Provide us with your vision, and we will Pixelize it into digital life."
     />
     <TextContainer>
+      <h1>The Origin Story</h1>
       {/* <TeamContainer>
         <div>
           <FredImage />
-          <p>Frederick</p>
-          <ul>
-            <li>Web Developer</li>
-            <li>Graphic Designer</li>
-            <li>Web Designer</li>
-          </ul>
+          <p>
+            Frederick Bogdanoff{" "}
+            <FontAwesomeIcon style={{ color: "#0095ff" }} icon={faCode} />
+            <br />
+            Co-Founder
+            <br />
+            Web Developer{" "}
+          </p>
         </div>
         <div>
           <SusannaImage />
-          <p>Susanna</p>
-          <ul>
-            <li>SEO Specialist</li>
-            <li>Copywriter</li>
-            <li>Web Designer</li>
-          </ul>
+          <p>
+            Susanna Bogdanoff{" "}
+            <FontAwesomeIcon style={{ color: "#0095ff" }} icon={faPencilAlt} />
+            <br />
+            Co-Founder
+            <br />
+            SEO Specialist{" "}
+          </p>
         </div>
       </TeamContainer> */}
-      <h1>The Origin Story</h1>
       <p>
         Coming from a family who has started many successful small businesses
         throughout the years, in different countries. We learned first hand, the
