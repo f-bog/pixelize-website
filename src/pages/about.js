@@ -2,30 +2,7 @@ import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import TextContainer from "../components/Containers/TextContainer"
-import styled from "styled-components"
-import FredImage from "../components/GatsbyImages/Fred"
-import SusannaImage from "../components/GatsbyImages/Susanna"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faPencilAlt, faCode } from "@fortawesome/free-solid-svg-icons"
-const TeamContainer = styled.div`
-  display: flex;
-  max-width: 600px;
-  margin: 0 auto;
-  justify-content: space-around;
-  padding: 10px;
-  p {
-    font-weight: 900;
-    text-align: center;
-  }
-  ul li {
-    font-weight: 900;
-  }
-  .gatsby-image-wrapper {
-    margin: 0 auto;
 
-    background-color: pink;
-  }
-`
 const AboutPage = () => (
   <Layout>
     <SEO
@@ -34,30 +11,7 @@ const AboutPage = () => (
     />
     <TextContainer>
       <h1>The Origin Story</h1>
-      {/* <TeamContainer>
-        <div>
-          <FredImage />
-          <p>
-            Frederick Bogdanoff{" "}
-            <FontAwesomeIcon style={{ color: "#0095ff" }} icon={faCode} />
-            <br />
-            Co-Founder
-            <br />
-            Web Developer{" "}
-          </p>
-        </div>
-        <div>
-          <SusannaImage />
-          <p>
-            Susanna Bogdanoff{" "}
-            <FontAwesomeIcon style={{ color: "#0095ff" }} icon={faPencilAlt} />
-            <br />
-            Co-Founder
-            <br />
-            SEO Specialist{" "}
-          </p>
-        </div>
-      </TeamContainer> */}
+
       <p>
         Coming from a family who has started many successful small businesses
         throughout the years, in different countries. We learned first hand, the

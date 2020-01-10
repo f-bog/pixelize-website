@@ -11,15 +11,13 @@ import Img from "gatsby-image"
  * For more information, see the docs:
  * - `gatsby-image`: https://gatsby.app/gatsby-image
  * - `StaticQuery`: https://gatsby.app/staticquery
- */
-
-const FredImage = () => (
+ */ const UltraPackage = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "fred.png" }) {
+        placeholderImage: file(relativePath: { eq: "ultra-web-package.png" }) {
           childImageSharp {
-            fixed(width: 250, quality: 100) {
+            fixed(height: 120, quality: 50) {
               ...GatsbyImageSharpFixed_tracedSVG
             }
           }
@@ -28,11 +26,12 @@ const FredImage = () => (
     `}
     render={data => (
       <Img
+        style={{ display: "block" }}
         fixed={data.placeholderImage.childImageSharp.fixed}
-        alt="Picture of Fred"
+        alt="Pixelize Ultra Website Packge"
       />
     )}
   />
 )
 
-export default FredImage
+export default UltraPackage

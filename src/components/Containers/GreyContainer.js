@@ -3,11 +3,11 @@ import styled from "styled-components"
 
 const StyledContainer = styled.div`
   ${"" /* width: 100%; */}
-  background-color: #f9f7f7;
+  background-color: #efefef;
   color: black;
-  padding: 30px;
+  padding: 70px 30px 30px 30px;
   text-align: center;
-  margin: 70px auto;
+  margin: 70px auto 0px auto;
   p {
     font-weight: 500;
     margin: 0 auto 20px auto;

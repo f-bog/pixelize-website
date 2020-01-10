@@ -10,11 +10,10 @@ import GreyContainer from "../components/Containers/GreyContainer"
 import WhiteContainer from "../components/Containers/WhiteContainer"
 import WebTechnologies from "../components/WebTechnolgoies"
 
-// import Carousel from "../components/Carousel"
-
 import Image from "../components/GatsbyImages/designimg"
 import DevImg from "../components/GatsbyImages/DevImg"
 import SeoImg from "../components/GatsbyImages/SeoImg"
+import SoftContainer from "../components/Containers/SoftContainer"
 const HomeHero = styled.div`
   width: 100%;
   display: flex;
@@ -289,8 +288,10 @@ class IndexPage extends Component {
             By being full-time learners, your website will never become stale or
             outdated and will continue to stay on the cutting edge.
           </p>
-          <Link to="/web-design-quote/">Get a website quote</Link>
         </GreyContainer>
+        <SoftContainer>
+          <Link to="/web-design-quote/">Get a website quote</Link>
+        </SoftContainer>
         <WhiteContainer heading="Website Support">
           <Floater>
             <WhyPixelize />

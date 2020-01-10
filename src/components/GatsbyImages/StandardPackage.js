@@ -11,15 +11,15 @@ import Img from "gatsby-image"
  * For more information, see the docs:
  * - `gatsby-image`: https://gatsby.app/gatsby-image
  * - `StaticQuery`: https://gatsby.app/staticquery
- */
-
-const SusannaImage = () => (
+ */ const StandardPackage = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "susanna.png" }) {
+        placeholderImage: file(
+          relativePath: { eq: "standard-web-package.png" }
+        ) {
           childImageSharp {
-            fixed(width: 250, quality: 100) {
+            fixed(height: 120, quality: 50) {
               ...GatsbyImageSharpFixed_tracedSVG
             }
           }
@@ -28,10 +28,12 @@ const SusannaImage = () => (
     `}
     render={data => (
       <Img
+        style={{ display: "block" }}
         fixed={data.placeholderImage.childImageSharp.fixed}
-        alt="Picture of Susanna"
+        alt="Pixelize Standard Website Packge"
       />
     )}
   />
 )
-export default SusannaImage
+
+export default StandardPackage
