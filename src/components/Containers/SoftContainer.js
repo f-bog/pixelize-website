@@ -41,9 +41,9 @@ const SoftCard = styled.div`
   padding: 20px;
   margin: 0px auto 50px auto;
   max-width: 300px;
-  ${"" /* margin: 50px; */}
+  
   border-radius: 30px;
-  ${"" /* background-color: #efefef; */}
+  
   box-shadow: 10px 10px 20px #cbcbcb, 
             -10px -10px 20px #ffffff;
   display: block;
@@ -54,7 +54,7 @@ const SoftCard = styled.div`
   @media only screen and (min-width: 768px) {
     margin: 50px 30px;
 
-    min-width: 353px;
+    max-width: 353px;
   }
   h3 {
     margin: 10px 0px;
