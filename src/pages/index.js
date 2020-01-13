@@ -290,6 +290,14 @@ class IndexPage extends Component {
           </p>
         </GreyContainer>
         <SoftContainer>
+          <p>Here are some of our web design packages.</p>
+          <p>
+            Can’t decide which website package is best your business or you
+            don’t see one that ticks all your boxes? No worries! One of our
+            design consultants will discuss with you which package is best for
+            your business, or we can develop a custom package made just for you!
+            Contact us today to schedule a free no-obligation consultation.
+          </p>
           <Link to="/web-design-quote/">Get a website quote</Link>
         </SoftContainer>
         <WhiteContainer heading="Website Support">
