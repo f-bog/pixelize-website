@@ -9,6 +9,7 @@ import LogoPortfolioCards from "../components/PortfolioCards/LogoPortfolioCards"
 import WebsitePortfolioCards from "../components/PortfolioCards/WebsitePortfolioCards"
 
 const PortfolioContainer = styled.div`
+  max-width: 900px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

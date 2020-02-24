@@ -174,10 +174,6 @@ class IndexPage extends Component {
         <GreyContainer>
           <h2>Where Code Becomes Art</h2>
           <p>
-            Starting out in my two car garage, sitting on plastic lawn chairs
-            and eating mangos… <strong>Pixelize</strong> was born!
-          </p>
-          <p>
             Comprised of a small in-house team of <strong>Gold Coast</strong>{" "}
             web designers, web developers and copywriters, we aren’t your
             typical creative web design agency. We actually understand the code
