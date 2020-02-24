@@ -79,7 +79,7 @@ const QuotePage = () => (
         A few questions to get the ball rolling! But if the thought of typing is
         giving you a headache, please feel free to give us a call instead!
       </p>
-      <a className="readmore" href="tel:0424933007">
+      <a className="readmore" href="tel:0455690118">
         Call Now
       </a>
 
