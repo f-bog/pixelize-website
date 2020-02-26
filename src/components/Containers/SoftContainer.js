@@ -41,11 +41,10 @@ const SoftCard = styled.div`
   padding: 20px;
   margin: 0px auto 50px auto;
   max-width: 300px;
-  
+
   border-radius: 30px;
-  
-  box-shadow: 10px 10px 20px #cbcbcb, 
-            -10px -10px 20px #ffffff;
+
+  box-shadow: 10px 10px 20px #cbcbcb, -10px -10px 20px #ffffff;
   display: block;
   i {
     display: block;
@@ -83,7 +82,7 @@ const SoftContainer = props => (
       <SoftCard>
         <StandardPackage></StandardPackage>
         <h3>Standard</h3>
-        <p>Starting at $1500</p>
+        {/* <p>Starting at $1500</p> */}
         <ul>
           <li>WordPress template</li>
           <li>Theme customization</li>
@@ -100,7 +99,7 @@ const SoftContainer = props => (
       <SoftCard>
         <SuperPackage></SuperPackage>
         <h3>Super</h3>
-        <p>Starting at $2500</p>
+        {/* <p>Starting at $2500</p> */}
         <ul>
           <li>
             Customised WordPress template or handcrafted serverless website
@@ -125,7 +124,7 @@ const SoftContainer = props => (
       <SoftCard>
         <UltraPackage></UltraPackage>
         <h3>Ultra</h3>
-        <p>Starting at $4000</p>
+        {/* <p>Starting at $4000</p> */}
         <ul>
           <li>
             Customised WordPress template or handcrafted serverless website
