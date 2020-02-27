@@ -9,8 +9,39 @@ const FormContainer = styled.form`
   display: block;
   margin: 0 auto;
   width: 80%;
+  #text {
+    display: block;
+    margin: 0 auto;
+  }
+  font-weight: 800;
+  .services-needed {
+    display: block;
+    margin: 0 auto;
+    span {
+      display: block;
+    }
 
-  label,
+    text-align: left;
+    input[type="checkbox"] {
+      display: inline-block;
+    }
+  }
+
+  input,
+  textarea,
+  select {
+    display: block;
+    margin: 10px auto 0px auto;
+    font-size: 18px;
+    min-width: 80%;
+    padding: 10px;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  ${"" /* label,
   span {
     display: block;
     font-weight: 900;
@@ -38,7 +69,7 @@ const FormContainer = styled.form`
     font-size: 18px;
     min-width: 80%;
     padding: 10px;
-  }
+  } */}
 
   .services {
     margin-top: 3px;
@@ -96,97 +127,81 @@ const QuotePage = () => (
           </label>
         </p>
         <p>
-          <label htmlFor="name">
-            Your name:
-            <br />
-            <input id="name" name="name" placeholder="Elon Musk" type="text" />
-          </label>
+          <label htmlFor="name">Your name:</label>
+
+          <input id="name" name="name" placeholder="Elon Musk" type="text" />
         </p>
         <p>
-          <label>
-            Name of business: <br />
-            <input
-              id="business"
-              name="business"
-              placeholder="SpaceX"
-              type="text"
-            />
-          </label>
+          <label>Name of business: </label>
+          <input
+            id="business"
+            name="business"
+            placeholder="SpaceX"
+            type="text"
+          />
         </p>
         <p>
-          <label>
-            Your email (required):
-            <br />
-            <input
-              id="email"
-              name="email"
-              placeholder="name@email.com"
-              type="email"
-              required
-            />
-          </label>
+          <label>Your email (required):</label>
+          <br />
+          <input
+            id="email"
+            name="email"
+            placeholder="name@email.com"
+            type="email"
+            required
+          />
         </p>
         <p>
-          <label>
-            Your phone number:
-            <br />
-            <input
-              id="phone"
-              name="phone"
-              placeholder="0000-000-000"
-              type="text"
-            />
-          </label>
+          <label>Your phone number:</label>
+          <br />
+          <input
+            id="phone"
+            name="phone"
+            placeholder="0000-000-000"
+            type="text"
+          />
         </p>
         <p>
-          <label>
-            Prefered method of contact:
-            <br />
-            <select name="ContactMethod" required>
-              <option value="phone">Phone</option>
-              <option value="email">Email</option>
-            </select>
-          </label>
+          <label>Prefered method of contact:</label>
+          <br />
+          <select name="ContactMethod" required>
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+          </select>
         </p>
         <p>
-          <label>
-            Please state your existing website (if you have one):
-            <br />
-            <input name="website" placeholder="www.example.com" type="text" />
-          </label>
+          <label>Please state your existing website (if you have one):</label>
+          <br />
+          <input name="website" placeholder="www.example.com" type="text" />
         </p>
 
         <p>
           <label>
             If you know of any websites you like, please state them here:
-            <br />
-            <input
-              name="LikedWebsites"
-              placeholder="www.pixelize.com.au"
-              type="text"
-            />
           </label>
+          <br />
+          <input
+            name="LikedWebsites"
+            placeholder="www.pixelize.com.au"
+            type="text"
+          />
         </p>
         <p>
-          <label>
-            Project budget:
-            <br />
-            <select id="budget" name="budget" required>
-              <option value="Under $1500">Under $1500</option>
-              <option value="Over $1500">Over $1500</option>
-            </select>
-          </label>
+          <label>Project budget:</label>
+          <br />
+          <select id="budget" name="budget" required>
+            <option value="Under $1500">Under $1500</option>
+            <option value="Over $1500">Over $1500</option>
+          </select>
         </p>
 
         <p>
-          <label htmlFor="description">
-            What does your business do?:
-            <textarea id="description" name="description" />
-          </label>
+          <label htmlFor="description">What does your business do?:</label>
+          <textarea id="description" name="description" />
         </p>
 
         <br />
-        <p>
+        <p className="services-needed">
           <span>Services needed:</span>
           <label htmlFor="webdesign">
             <input
