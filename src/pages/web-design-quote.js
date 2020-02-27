@@ -9,16 +9,25 @@ const FormContainer = styled.form`
   display: block;
   margin: 0 auto;
   width: 80%;
-  #text {
-    display: block;
+  p {
     margin: 0 auto;
   }
+
   font-weight: 800;
+  label {
+    display: block;
+    padding: 0;
+    margin: 20px auto 0px auto;
+  }
+
   .services-needed {
     display: block;
+    max-width: 500px;
     margin: 0 auto;
     span {
+      margin-top: 30px;
       display: block;
+      text-align: center;
     }
 
     text-align: left;
@@ -26,10 +35,16 @@ const FormContainer = styled.form`
       display: inline-block;
     }
   }
+  input:focus {
+    border: rgb(184, 98, 249) solid 3px;
+  }
 
   input,
   textarea,
   select {
+    transition: all 0.5s;
+    border: 3px solid grey;
+
     display: block;
     margin: 10px auto 0px auto;
     font-size: 18px;
@@ -132,7 +147,7 @@ const QuotePage = () => (
           <input id="name" name="name" placeholder="Elon Musk" type="text" />
         </p>
         <p>
-          <label>Name of business: </label>
+          <label htmlFor="business">Name of business: </label>
           <input
             id="business"
             name="business"
@@ -141,8 +156,8 @@ const QuotePage = () => (
           />
         </p>
         <p>
-          <label>Your email (required):</label>
-          <br />
+          <label htmlFor="email">Your email (required):</label>
+
           <input
             id="email"
             name="email"
@@ -152,8 +167,8 @@ const QuotePage = () => (
           />
         </p>
         <p>
-          <label>Your phone number:</label>
-          <br />
+          <label htmlFor="phone">Your phone number:</label>
+
           <input
             id="phone"
             name="phone"
@@ -163,7 +178,6 @@ const QuotePage = () => (
         </p>
         <p>
           <label>Prefered method of contact:</label>
-          <br />
           <select name="ContactMethod" required>
             <option value="phone">Phone</option>
             <option value="email">Email</option>
@@ -171,7 +185,7 @@ const QuotePage = () => (
         </p>
         <p>
           <label>Please state your existing website (if you have one):</label>
-          <br />
+
           <input name="website" placeholder="www.example.com" type="text" />
         </p>
 
@@ -179,7 +193,7 @@ const QuotePage = () => (
           <label>
             If you know of any websites you like, please state them here:
           </label>
-          <br />
+
           <input
             name="LikedWebsites"
             placeholder="www.pixelize.com.au"
@@ -188,7 +202,7 @@ const QuotePage = () => (
         </p>
         <p>
           <label>Project budget:</label>
-          <br />
+
           <select id="budget" name="budget" required>
             <option value="Under $1500">Under $1500</option>
             <option value="Over $1500">Over $1500</option>
@@ -200,9 +214,9 @@ const QuotePage = () => (
           <textarea id="description" name="description" />
         </p>
 
-        <br />
         <p className="services-needed">
           <span>Services needed:</span>
+          <br></br>
           <label htmlFor="webdesign">
             <input
               className="services"
