@@ -34,7 +34,7 @@ const AllPortfolioCards = props => (
   <StaticQuery
     query={ALL_PORTFOLIO_CARD_QUERY}
     render={data => (
-      <div>
+      <div className="cards">
         {data.allMarkdownRemark.edges.map(edge => (
           <div
             className={`card ${edge.node.frontmatter.value}`}
