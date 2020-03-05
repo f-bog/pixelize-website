@@ -15,16 +15,17 @@ import DevImg from "../components/GatsbyImages/DevImg"
 import SeoImg from "../components/GatsbyImages/SeoImg"
 import SoftContainer from "../components/Containers/SoftContainer"
 const HomeHero = styled.div`
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin: 0 auto 50px auto;
   h1 {
+    margin-bottom: 10px;
   }
   p {
-    width: 220px;
-    margin: 20px auto;
+    margin-top: 0;
+    margin-bottom: 10px;
     text-align: left;
     font-size: 24px;
     font-weight: 900;
@@ -36,11 +37,11 @@ const HomeHero = styled.div`
   a {
     display: inline-block;
     color: white;
-    padding: 10px;
+    padding: 10px 20px;
     text-decoration: none;
     font-weight: 600;
     border-radius: 10px;
-    margin: 0 10px;
+    margin: 0px 15px 15px 0px;
     background-color: #b862f9;
     transition: all 0.5s;
   }
@@ -49,19 +50,24 @@ const HomeHero = styled.div`
     opacity: 0.6;
   }
   .introContainer {
-    text-align: center;
+    text-align: left;
+    max-width: 80%;
+    margin: 0 auto;
   }
 
   @media only screen and (min-width: 797px) {
+    width: 80%;
+
     flex-direction: row;
     h1 {
+      margin: 0px;
       font-size: 50px;
     }
 
     .introContainer {
       align-self: center;
       width: 40%;
-      margin: 0 auto;
+      margin: 0px 0px 0px auto;
     }
   }
 `
