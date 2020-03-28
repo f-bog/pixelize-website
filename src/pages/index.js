@@ -15,11 +15,14 @@ import DevImg from "../components/GatsbyImages/DevImg"
 import SeoImg from "../components/GatsbyImages/SeoImg"
 import SoftContainer from "../components/Containers/SoftContainer"
 const HomeHero = styled.div`
-  width: 80%;
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  height: 700px;
+  justify-content: space-around;
+  align-items: center;
   flex-direction: column;
   margin: 0 auto 50px auto;
+  z-index: 200;
   h1 {
     margin-bottom: 10px;
   }
@@ -30,43 +33,50 @@ const HomeHero = styled.div`
     font-size: 24px;
     font-weight: 900;
   }
-  span {
-    font-weight: 900;
-    color: #9400ff;
+
+  .pink {
+    background-color: #ff0077;
+  }
+  .green {
+    color: white;
+    background-color: #0076ff;
   }
   a {
+    box-shadow: 6px 6px 0px -2px rgba(166, 166, 166, 1);
     display: inline-block;
     color: white;
-    padding: 10px 20px;
+    padding: 1em 1.5em;
     text-decoration: none;
+    font-size: 18px;
     font-weight: 600;
-    border-radius: 10px;
-    margin: 0px 15px 15px 0px;
-    background-color: #b862f9;
+    border-radius: 1em;
+    margin: 15px 15px 15px 0px;
+
     transition: all 0.5s;
   }
   a:hover {
-    transform: rotate(5deg);
-    opacity: 0.6;
+    box-shadow: none;
+    opacity: 0.8;
   }
   .introContainer {
     text-align: left;
     max-width: 80%;
     margin: 0 auto;
+    z-index: 200;
   }
 
   @media only screen and (min-width: 797px) {
-    width: 80%;
-
+    max-width: 1260px;
+    justify-content: space-around;
     flex-direction: row;
     h1 {
-      margin: 0px;
+      margin: 0px 0px 0.5em 0px;
       font-size: 50px;
     }
 
     .introContainer {
       align-self: center;
-      width: 40%;
+
       margin: 0px 0px 0px auto;
     }
   }
@@ -164,14 +174,15 @@ class IndexPage extends Component {
               Creative Web Design <br />
               Gold Coast
             </h1>
-
             <p>
-              Building <WordChanger />
-              <br />
-              one pixel at a time.
+              Building <span>websites</span> one pixel at a time.
             </p>
-            <Link to="/portfolio/">Our Portfolio</Link>
-            <Link to="/web-design-quote/">Get a Quote</Link>
+            <Link className="pink" to="/portfolio/">
+              Our Portfolio
+            </Link>
+            <Link className="green" to="/web-design-quote/">
+              Get a Quote
+            </Link>
             {/* <a style={{ marginTop: "20px" }} href="tel:0424933007">
               &#9990; 0424-933-007
             </a> */}

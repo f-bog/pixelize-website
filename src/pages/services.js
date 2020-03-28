@@ -20,22 +20,19 @@ const ServicePage = () => (
 
     <TextContainer>
       <ServicesIllustration />
-      <h1>A Full Service Web Salon</h1>
-      <p>
+      <h1 style={{ textAlign: "center" }}>A Full Service Web Salon</h1>
+      <p style={{ textAlign: "center" }}>
         As a full-service creative agency, we specialise across all areas of web
         development, web design, branding and SEO.
       </p>
-      <p>
+      <p style={{ textAlign: "center" }}>
         We transform your vision by using the latest cutting edge technologies
         in web development in correlation with unique and stunning designs. Our
         SEO specialist consults with you to further understand your business
         along with market research to produce quality organic traffic to your
         website.
       </p>
-      <p>
-        By putting the pedal to the metal ..er.. we mean “fingers to the
-        keyboard”, we will create you a fast, excellent website on time.
-      </p>
+
       <Accordion
         title="Graphic Design"
         image={<Image />}

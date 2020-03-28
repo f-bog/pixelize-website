@@ -21,12 +21,12 @@ const pageMove = keyframes`
   }
 `
 const Svgcontainer = styled.div`
-  width: 100%;
-  margin: 60px auto 0 auto;
+  min-width: 100%;
+  margin: 0px auto;
   svg {
     display: block;
-    margin: 0 auto;
-    max-width: 80%;
+    margin: 0px auto;
+    width: 80%;
   }
   #floatingpage {
     animation: ${pageMove} 2s ease-in-out infinite alternate;
@@ -35,7 +35,7 @@ const Svgcontainer = styled.div`
     animation: ${seoMove} 2s ease-in-out infinite alternate;
   }
   @media only screen and (min-width: 797px) {
-    width: 50%;
+    min-width: 50%;
   }
 `
 const Herosvg = () => {

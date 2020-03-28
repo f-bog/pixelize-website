@@ -15,9 +15,7 @@ const StyledContainer = styled.div`
     margin-top: 15px;
     font-weight: 500;
   }
-  h1 {
-    text-align: center;
-  }
+
   .readmore {
     cursor: pointer;
     display: block;

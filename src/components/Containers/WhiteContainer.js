@@ -21,19 +21,22 @@ const StyledContainer = styled.div`
     ${"" /* height: 180px; */}
   }
   .readmore {
+    box-shadow: 6px 6px 0px -2px rgba(166, 166, 166, 1);
     display: inline-block;
     color: white;
-    padding: 10px;
+    padding: 1em 1.5em;
     text-decoration: none;
+    font-size: 18px;
     font-weight: 600;
-    border-radius: 10px;
-    margin: 10px auto;
-    background-color: black;
+    border-radius: 1em;
+    margin: 0px auto;
+    background: black;
     transition: all 0.5s;
   }
+
   .readmore:hover {
-    transform: rotate(5deg);
-    opacity: 0.6;
+    box-shadow: none;
+    opacity: 0.8;
   }
 `
 

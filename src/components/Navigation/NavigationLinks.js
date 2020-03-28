@@ -95,7 +95,7 @@ const Navigation = styled.nav`
     ul li a {
       display: block;
       padding: 5px;
-      font-size: 14px;
+      font-size: 17px;
     }
     a:before {
       height: 2px;

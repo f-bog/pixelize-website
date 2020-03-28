@@ -11,7 +11,7 @@ import SideDrawer from "./Navigation/SideDrawer"
 const HeaderWrapper = styled.div`
   background-color: black;
   padding: 10px;
-  height: 40px;
+  height: 70px;
 
   position: fixed;
   top: 0;
@@ -33,6 +33,7 @@ const MainHeader = styled.header`
   }
   @media only screen and (min-width: 797px) {
     ${"" /* max-width: 1060px; */}
+    max-width: 1260px;
     .desknav {
       display: block;
     }

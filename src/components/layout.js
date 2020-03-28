@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
               <main
                 style={{
                   width: "100%",
-                  marginTop: "80px",
+                  marginTop: "90px",
                   marginBottom: "0px",
                 }}
               >
