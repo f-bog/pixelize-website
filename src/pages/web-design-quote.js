@@ -177,36 +177,39 @@ const QuotePage = () => (
           />
         </p>
         <p>
-          <label>Prefered method of contact:</label>
-          <select name="ContactMethod" required>
-            <option value="phone">Phone</option>
-            <option value="email">Email</option>
-          </select>
+          <label>
+            Prefered method of contact:
+            <select name="ContactMethod" required>
+              <option value="phone">Phone</option>
+              <option value="email">Email</option>
+            </select>
+          </label>
         </p>
         <p>
-          <label>Please state your existing website (if you have one):</label>
-
-          <input name="website" placeholder="www.example.com" type="text" />
+          <label>
+            Please state your existing website (if you have one):
+            <input name="website" placeholder="www.example.com" type="text" />
+          </label>
         </p>
 
         <p>
           <label>
             If you know of any websites you like, please state them here:
+            <input
+              name="LikedWebsites"
+              placeholder="www.pixelize.com.au"
+              type="text"
+            />
           </label>
-
-          <input
-            name="LikedWebsites"
-            placeholder="www.pixelize.com.au"
-            type="text"
-          />
         </p>
         <p>
-          <label>Project budget:</label>
-
-          <select id="budget" name="budget" required>
-            <option value="Under $1500">Under $1500</option>
-            <option value="Over $1500">Over $1500</option>
-          </select>
+          <label>
+            Project budget:
+            <select id="budget" name="budget" required>
+              <option value="Under $1500">Under $1500</option>
+              <option value="Over $1500">Over $1500</option>
+            </select>
+          </label>
         </p>
 
         <p>

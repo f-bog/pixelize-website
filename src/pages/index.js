@@ -5,7 +5,6 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Herosvg from "../components/Herosvg"
-import WordChanger from "../components/WordChanger"
 import GreyContainer from "../components/Containers/GreyContainer"
 import WhiteContainer from "../components/Containers/WhiteContainer"
 import WebTechnologies from "../components/WebTechnolgoies"
@@ -183,9 +182,6 @@ class IndexPage extends Component {
             <Link className="green" to="/web-design-quote/">
               Get a Quote
             </Link>
-            {/* <a style={{ marginTop: "20px" }} href="tel:0424933007">
-              &#9990; 0424-933-007
-            </a> */}
           </div>
         </HomeHero>
         <GreyContainer>

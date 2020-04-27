@@ -113,7 +113,7 @@ class PortfolioPage extends Component {
               Search:
               <select
                 value={this.state.selectedValue}
-                onChange={this.handleChange}
+                onBlur={this.handleChange}
                 id="search"
                 name="search"
               >
