@@ -201,7 +201,7 @@ class IndexPage extends Component {
             and care.
           </p>
           <p>
-            Provide us with your vision and we will <strong>Pixelize</strong> it
+            Give us with your vision and we will <strong>Pixelize</strong> it
             into digital life!
           </p>
           <Link to="/about/">About Us</Link>
