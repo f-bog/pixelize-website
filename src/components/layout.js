@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import { Spring } from "react-spring/renderprops"
 import Footer from "./Footer"
-import Header from "./Header"
+import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => (

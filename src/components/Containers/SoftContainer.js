@@ -40,7 +40,7 @@ const SoftCard = styled.div`
   height: auto;
   padding: 20px;
   margin: 0px auto 50px auto;
-  max-width: 300px;
+  width: 300px;
 
   border-radius: 30px;
 
