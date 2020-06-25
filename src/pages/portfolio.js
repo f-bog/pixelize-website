@@ -14,6 +14,10 @@ const PortfolioContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
+  h1 {
+    text-align: center;
+    margin: 0 auto;
+  }
   label {
     margin: 0 auto;
     font-size: 24px;
@@ -91,9 +95,7 @@ class PortfolioPage extends Component {
   }
   render() {
     let cards = <AllPortfolioCards />
-    if (this.state.selectedValue === "All" || "") {
-      cards = <AllPortfolioCards />
-    } else if (this.state.selectedValue === "Logos") {
+    if (this.state.selectedValue === "Logos") {
       cards = <LogoPortfolioCards />
     } else if (this.state.selectedValue === "Websites") {
       cards = <WebsitePortfolioCards />
@@ -113,12 +115,13 @@ class PortfolioPage extends Component {
               Search:
               <select
                 value={this.state.selectedValue}
-                onBlur={this.handleChange}
+                onChange={this.handleChange}
                 id="search"
                 name="search"
               >
                 <option value="All">All</option>
                 <option value="Websites">Websites</option>
+
                 <option value="Logos">Logos</option>
               </select>
             </label>

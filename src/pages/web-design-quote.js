@@ -8,7 +8,7 @@ import QuoteIllustration from "../components/GatsbyImages/QuoteIllustration"
 const FormContainer = styled.form`
   display: block;
   margin: 0 auto;
-  width: 80%;
+  max-width: 700px;
   p {
     margin: 0 auto;
   }
@@ -46,7 +46,7 @@ const FormContainer = styled.form`
     border: 3px solid grey;
 
     display: block;
-    margin: 10px auto 0px auto;
+    margin: 10px 0px;
     font-size: 18px;
     min-width: 80%;
     padding: 10px;
