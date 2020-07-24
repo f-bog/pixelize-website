@@ -40,6 +40,9 @@ const HomeHero = styled.div`
     color: white;
     background-color: #0076ff;
   }
+  .purple {
+    background-color: #b862f9;
+  }
   a {
     box-shadow: 6px 6px 0px -2px rgba(166, 166, 166, 1);
     display: inline-block;
@@ -182,6 +185,9 @@ class IndexPage extends Component {
             <Link className="green" to="/web-design-quote/">
               Get a Quote
             </Link>
+            <a className="purple" href="tel:0455690118">
+              0455 690 118
+            </a>
           </div>
         </HomeHero>
         <GreyContainer>
