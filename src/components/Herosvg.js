@@ -21,8 +21,6 @@ const pageMove = keyframes`
   }
 `
 const Svgcontainer = styled.div`
-  min-width: 100%;
-  margin: 0px auto;
   svg {
     display: block;
     margin: 0px auto;
@@ -35,7 +33,9 @@ const Svgcontainer = styled.div`
     animation: ${seoMove} 2s ease-in-out infinite alternate;
   }
   @media only screen and (min-width: 797px) {
-    min-width: 50%;
+    svg {
+      width: 500px;
+    }
   }
 `
 const Herosvg = () => {

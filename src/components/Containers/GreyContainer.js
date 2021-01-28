@@ -2,10 +2,9 @@ import React from "react"
 import styled from "styled-components"
 
 const StyledContainer = styled.div`
-  ${"" /* width: 100%; */}
   background-color: #efefef;
   color: black;
-  padding: 70px 30px 30px 30px;
+  padding: 70px 30px;
   text-align: center;
   margin: 70px auto 0px auto;
   p {
@@ -14,12 +13,10 @@ const StyledContainer = styled.div`
     max-width: 1060px;
   }
   a {
-    ${"" /* background-color: #ffb300; */}
     color: black;
     padding: 10px;
     font-weight: 600;
     border-radius: 10px;
-    ${"" /* text-decoration: none; */}
   }
 `
 
